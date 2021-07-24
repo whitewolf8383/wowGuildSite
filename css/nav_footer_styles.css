@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+  }
+  /* Nav Bar */
+  .nav-bar{
+    background-color: rgb(0,0,0,13%);
+  }
+  .nav-bar-section{
+    display: block;
+    width: 1160px;
+    margin: auto;
+    position: static;
+  }
+  .nav-bar-img{
+    margin-left: 10px;
+    margin-right: 50px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .nav-bar-section-link{
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 0 5px;
+  }
+
+  /* Search Box */
+  .nav-bar-search-box{
+    height: 30px;
+    width: 200px;
+    margin-right: 10px;
+  }
+
+
+  /* Footer */
+  .footer-div{
+    height: 60px;
+    background-color: rgb(0,0,0);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-div-section{
+    display: block;
+    width: 1160px;
+    margin: auto;
+    position: static;
+  }
+  .footer-txt{
+    color: rgb(255,255,255);
+    font-family: "Neuton";
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    margin-left: 30px;
+  }
+
+@media screen and (max-width: 990px){
+  .nav-bar-section{
+    width: 800px;
+  }
+  .nav-bar-section-link{
+    font-size: 18px;
+    padding-left: 500px;
+  }
+  .dropdown{
+    font-size: 18px;
+    padding-left: 495px;
+  }
+  .nav-bar-search-box{
+    margin-left: 495px;
+  }
+  .nav-bar-btn-bk{
+    display: none;
+  }
+  .nav-bar-img{
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  /* Footer */
+  .footer-div-section{
+    width: 800px;
+  }
+  .footer-txt{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 801px){
+  .nav-bar-section{
+    width: 600px;
+  }
+  .nav-bar-section-link{
+    font-size: 16px;
+    padding-left: 300px;
+  }
+  .dropdown{
+    font-size: 18px;
+    padding-left: 295px;
+  }
+  .nav-bar-search-box{
+    margin-left: 295px;
+  }
+  /* Footer */
+  .footer-div-section{
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 601px){
+  .nav-bar-section{
+    width: 450px;
+  }
+  .nav-bar-section-link{
+    font-size: 12px;
+    padding-left: 250px;
+  }
+  .dropdown{
+    font-size: 14px;
+    padding-left: 245px;
+  }
+  .nav-bar-search-box{
+    margin-left: 245px;
+  }
+  /* Footer */
+  .footer-div-section{
+    width: 450px;
+  }
+  .footer-txt{
+    font-size: 10px;
+  }
+}

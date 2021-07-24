@@ -1,0 +1,510 @@
+/* character build styles */
+body{
+  background-color: rgb(0, 0, 0);
+  color: rgb(256, 256, 256);
+}
+.top-div{
+  background-image: url(../images/character_builds_images/char_bk.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 640px;
+}
+.top-div-section{
+  text-align: center;
+}
+.top-title{
+  font-family: "Neuton";
+  font-size: 60px;
+  font-weight: normal;
+  letter-spacing: 15px;
+  margin-top: 95px;
+}
+.top-para{
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 170%;
+  margin: 50px auto;
+  width: 545px;
+}
+.learning-div{
+  margin: auto;
+  width: 1250px;
+}
+.char-selection-section{
+  margin: auto;
+  text-align: center;
+}
+.selector{
+  display: inline-block;
+  width: 200px;
+}
+.icon{
+  background-color: rgb(0, 0, 0);
+  border: 10px solid;
+}
+.icon img:hover{
+  height: 110px;
+  width: 110px;
+}
+.row-1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.row-2{
+  padding-bottom: 75px;
+}
+.char-info-section{
+  background-color: rgb(175, 175, 175);
+  margin: auto;
+  padding-bottom: 30px;
+  width: 1265px;
+}
+.intro{
+  margin: auto;
+  padding-top: 20px;
+  width: 1160px;
+}
+.img-section{
+  display: inline-block;
+}
+.img-size{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  width: 475px;
+}
+.intro-info{
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  vertical-align: top;
+}
+.intro-heading{
+  font-family: "Neuton";
+  font-size: 60px;
+  font-weight: 900;
+}
+.intro-para{
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 170%;
+  width: 650px;
+}
+.info-slide{
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center right;
+  background-size: cover;
+  height: 850px;
+  margin: 50px auto;
+  padding: 20px 0 30px 50px;
+  width: 1160px;
+}
+.info-slide-title{
+  font-family: "Neuton";
+  font-size: 60px;
+  font-weight: 900;
+}
+.info-slide-para{
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 170%;
+  padding: 10px 0;
+  width: 900px;
+}
+.info-talents{
+  display: inline-block;
+  width: 350px;
+  vertical-align: top;
+}
+.info-stats{
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+.info-buffs{
+  display: inline-block;
+  width: 475px;
+  vertical-align: top;
+}
+.info-build-section-titles{
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 400;
+}
+.info-build-txt{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.corruption-build{
+  display: inline-block;
+  padding-top: 15px;
+  width: 550px;
+}
+.potion-indent{
+  padding-left: 79px;
+}
+.blood-slide{
+  background-image: url(../images/character_builds_images/slide_images/dk_blood_background.png);
+}
+.frost-slide{
+  background-image: url(../images/character_builds_images/slide_images/dk_frost_background.jpg);
+}
+.unholy-slide{
+  background-image: url(../images/character_builds_images/slide_images/dk_unholy_background.jpg);
+}
+.veng-slide{
+  background-image: url(../images/character_builds_images/slide_images/vengeance_dh_background.png);
+}
+.havoc-slide{
+  background-image: url(../images/character_builds_images/slide_images/havoc_dh_background.png);
+}
+.balan-slide{
+  background-image: url(../images/character_builds_images/slide_images/balance_druid_background.png);
+}
+.feral-slide{
+  background-image: url(../images/character_builds_images/slide_images/feral_druid_background.png);
+}
+.guard-slide{
+  background-image: url(../images/character_builds_images/slide_images/guardian_druid_background.png);
+}
+.rest-slide{
+  background-image: url(../images/character_builds_images/slide_images/restoration_druid_background.png);
+}
+.beast-slide{
+  background-image: url(../images/character_builds_images/slide_images/beastmaster_background.png);
+}
+.marks-slide{
+  background-image: url(../images/character_builds_images/slide_images/marksman_background.png);
+}
+.sur-slide{
+  background-image: url(../images/character_builds_images/slide_images/survival_background.png);
+}
+.arcane-slide{
+  background-image: url(../images/character_builds_images/slide_images/arcane_background.png);
+}
+.fire-slide{
+  background-image: url(../images/character_builds_images/slide_images/fire_background.png);
+}
+.mg-frost-slide{
+  background-image: url(../images/character_builds_images/slide_images/frost_background.png);
+}
+.brew-slide{
+  background-image: url(../images/character_builds_images/slide_images/brewmaster_background.png);
+}
+.mist-slide{
+  background-image: url(../images/character_builds_images/slide_images/mistweaver_background.png);
+}
+.wind-slide{
+  background-image: url(../images/character_builds_images/slide_images/windwalker_background.png);
+}
+.hy-slide{
+  background-image: url(../images/character_builds_images/slide_images/holy_background.png);
+}
+.prot-slide{
+  background-image: url(../images/character_builds_images/slide_images/protection_background.png);
+}
+.ret-slide{
+  background-image: url(../images/character_builds_images/slide_images/retribution_background.png);
+}
+.disc-slide{
+  background-image: url(../images/character_builds_images/slide_images/disc_background.png);
+}
+.holy-slide{
+  background-image: url(../images/character_builds_images/slide_images/holy_priest_background.png);
+}
+.shadow-slide{
+  background-image: url(../images/character_builds_images/slide_images/shadow_background.png);
+}
+.assin-slide{
+  background-image: url(../images/character_builds_images/slide_images/assassin_background.png);
+}
+.out-slide{
+  background-image: url(../images/character_builds_images/slide_images/outlaw_background.png);
+}
+.sub-slide{
+  background-image: url(../images/character_builds_images/slide_images/sub_background.png);
+}
+.ele-slide{
+  background-image: url(../images/character_builds_images/slide_images/elemental_background.png);
+}
+.enhan-slide{
+  background-image: url(../images/character_builds_images/slide_images/enhancement_background.png);
+}
+.restoration-slide{
+  background-image: url(../images/character_builds_images/slide_images/restoration_background.png);
+}
+.aff-slide{
+  background-image: url(../images/character_builds_images/slide_images/affliction_background.png);
+}
+.demon-slide{
+  background-image: url(../images/character_builds_images/slide_images/demon_background.png);
+}
+.destro-slide{
+  background-image: url(../images/character_builds_images/slide_images/destro_background.png);
+}
+.arms-slide{
+  background-image: url(../images/character_builds_images/slide_images/arms_background.png);
+}
+.fury-slide{
+  background-image: url(../images/character_builds_images/slide_images/fury_background.png);
+}
+.protection-slide{
+  background-image: url(../images/character_builds_images/slide_images/prot_background.png);
+}
+#demon{
+  display: none;
+}
+#druid{
+  display: none;
+}
+#hunter{
+  display: none;
+}
+#mage{
+  display: none;
+}
+#monk{
+  display: none;
+}
+#paladan{
+  display: none;
+}
+#priest{
+  display: none;
+}
+#rogue{
+  display: none;
+}
+#shaman{
+  display: none;
+}
+#warlock{
+  display: none;
+}
+#warrior{
+  display: none;
+}
+
+
+@media screen and (max-width: 1280px){
+  .learning-div{
+    width: 900px;
+  }
+  .selector{
+    width: 145px;
+  }
+  .char-info-section{
+    width: 900px;
+  }
+  .intro{
+    padding-top: 20px;
+    width: 1160px;
+  }
+  .img-size{
+    padding-left: 30px;
+    width: 300px;
+  }
+  .intro-heading{
+    font-size: 45px;
+  }
+  .intro-para{
+    font-size: 18px;
+    width: 550px;
+  }
+  .info-slide{
+    height: auto;
+    width: 850px;
+  }
+  .info-slide-title{
+    font-size: 45px;
+  }
+  .info-slide-para{
+    font-size: 18px;
+    width: 800px;
+  }
+  .info-talents{
+    width: 260px;
+  }
+  .info-stats{
+    width: 150px;
+  }
+  .info-buffs{
+    width: 375px;
+  }
+  .info-build-txt{
+    font-size: 18px;
+  }
+  .corruption-build{
+    width: 350px;
+  }
+  .potion-indent{
+    padding-left: 70px;
+  }
+}
+
+
+@media screen and (max-width: 910px){
+  .top-title{
+    font-size: 40px;
+    letter-spacing: 12px;
+    margin-top: 80px;
+  }
+  .top-para{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 170%;
+  }
+  .learning-div{
+    width: 600px;
+  }
+  .selector{
+    display: inline-block;
+    width: 85px;
+  }
+  .icon{
+    border: 5px;
+  }
+  .icon-img{
+    height: 70px;
+    width: 70px;
+  }
+  .icon img:hover{
+    height: 90px;
+    width: 90px;
+  }
+  .row-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .row-2{
+    padding-bottom: 35px;
+  }
+  .char-info-section{
+    margin: auto;
+    width: 580px;
+  }
+  .intro{
+    padding-top: 20px;
+    width: 580px;
+  }
+  .img-size{
+    display: block;
+    margin-left: 75px;
+    width: 425px;
+  }
+  .intro-info{
+    width: 580px;
+  }
+  .intro-heading{
+    text-align: center;
+    font-size: 50px;
+  }
+  .intro-para{
+    font-size: 16px;
+    line-height: 170%;
+    padding: 0 10px;
+    width: 580px;
+  }
+  .info-slide{
+    width: 550px;
+  }
+  .info-slide-title{
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+  .info-slide-para{
+    width: 500px;
+  }
+  .info-talents{
+    padding-bottom: 30px;
+  }
+ 
+  .info-build-section-titles{
+    font-size: 25px;
+  }
+  .info-build-txt{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .corruption-build{
+    display: inline-block;
+    padding-top: 15px;
+    width: 550px;
+  }
+  .potion-indent{
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 601px){
+  .top-title{
+    font-size: 30px;
+  }
+  .top-para{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 30px auto;
+    width: 300px;
+  }
+  .learning-div{
+    width: 500px;
+  }
+  .selector{
+    width: 150px;
+  }
+  .icon{
+    border: 10px solid;
+  }
+  .row-1{
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+  .row-2{
+    padding-bottom: 30px;
+  }
+  .char-info-section{
+    width: 450px;
+  }
+  .intro{
+    width: 500px;
+  }
+  .img-size{
+    margin: 0;
+    width: 450px;
+  }
+  .intro-heading{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 8px;
+  }
+  .intro-para{
+    font-size: 14px;
+    width: 450px;
+  }
+  .info-slide{
+    background-image: none;
+    background-color: black;
+    width: 480px;
+  }
+  .info-slide-title{
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .info-slide-para{
+    font-size: 16px;
+    line-height: 170%;
+    width: 400px;
+  }
+  .info-stats{
+    width: 200px;
+    padding-bottom: 30px;
+  }
+  .corruption-build{
+    width: 400px;
+  }
+}

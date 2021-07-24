@@ -1,0 +1,2116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175533281-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-175533281-1');
+    </script>
+    <meta name="google-site-verification" content="zdMvvuaxZy1-XIzmChsjcMDyT1sd_tzYa_ZDjeAsVnU" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Keith J Francis">
+    <meta name="description" content="This page within the Doodles-Whisperwind guild website provides the most common, current best builds for individual players, focusing on raid performance.">
+    <meta name="keywords" content="doodles, whisperwind, teaching guild, world of warcraft, wow">
+    <title>Doodles-Whisperwind Character Builds Page</title>
+    <!-- script styles  from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@200;300;400;700;800&family=Playball&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Link section -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/nav_footer_styles.css">
+    <link rel="stylesheet" href="../css/character_builds_styles.css">
+  </head>
+  <body>
+    <section>
+      <header class="top-div">
+        <div class="nav-bar">
+          <div class="nav-bar-section">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a href="index.html">
+                <img class="nav-bar-img" src="../images/guild_landing_page_images/black_dragon_head.png" alt="black dragons head">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a href="guild_intro_page.html" class="nav-bar-section-link">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="guild_officers.html" class="nav-bar-section-link">OFFICERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="character_builds.html" class="nav-bar-section-link">CHARACTERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="corruption_system_overview.html" class="nav-bar-section-link">CORRUPTION SYSTEM</a>
+                  </li>
+                  <!-- drop down menu-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: white; font-family: Roboto; font-weight: 500; font-size: 18px; letter-spacing: 3px; padding: 0 5px 0 5px;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      SHADOWLANDS
+                    </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="shadowlands_overview.html">OVERVIEW</a>
+                        <a class="dropdown-item" href="shadowlands_play_areas.html">QUESTING AREAS</a>
+                        <a class="dropdown-item" href="covenant_details.html">COVENANTS</a>
+                        <a class="dropdown-item" href="shadowlands_dungeons.html">DUNGEONS</a>
+                      </div>
+                  </li>
+                </ul>
+                  <!-- Search Box-->
+                  <form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+                    <input id="hiddenquery" type="hidden" name="q" />
+                    <input name="qfront" type="text" class="nav-bar-search-box" placeholder=" Search"/> 
+                    <input type="submit" style="display: none"/>
+                    <div style="display: none;">
+                      Google:<input name="se">
+                    </div>
+                  </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="top-div-section">
+          <h1 class="top-title">LEARN YOUR CLASS</h1>
+          <h2 class="top-para">Every hero has to start somewhere. Why not start here!</h2>
+        </div>
+      </header>
+      <article>
+      <div class="learning-div">
+        <div>
+          <div class="char-selection-section">
+            <div class="row-1">
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'death')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/death-knight-icon.svg" alt="Death Knight Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'demon')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/demon-hunter-icon.svg" alt="Demon Hunter Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'druid')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/druid-icon.svg" alt="Druid Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'hunter')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/hunter-icon.svg" alt="Hunter Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'mage')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/mage-icon.svg" alt="Mage Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'monk')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/monk-icon.svg" alt="Monk Icon">
+                </button>
+              </div>
+            </div>
+            <div class="row-2">
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'paladan')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/paladan-icon.svg" alt="Paladan Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'priest')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/priest-icon.svg" alt="Priest Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'rogue')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/rogue-icon.svg" alt="Rogue Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'shaman')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/shaman-icon.svg" alt="Shaman Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'warlock')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/warlock-icon.svg" alt="Warlock Icon">
+                </button>
+              </div>
+              <div class="selector">
+                <button class="icon" onclick="openSection(event, 'warrior')">
+                  <img class="icon-img" src="../images/character_builds_images/icons/warrior-icon.svg" alt="Warrior Icon">
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="death" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/dk_icon.jpg" alt="Death Knight Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">DEATHKNIGHT</h2>
+                <p class="intro-para">Introduced in the Wrath of the Lich King expansion, Death Knights are World of Warcraft's 
+                  first hero class. When the Lich King’s control of his death knights was broken, his former 
+                  champions sought revenge for the horrors committed under his command. After their vengeance 
+                  was won, the death knights found themselves without a cause and without a home. One by one 
+                  they trickled into the land of the living in search of a new purpose.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide blood-slide">
+              <h2 class="info-slide-title">BLOOD</h2>
+              <p class="info-slide-para">The Blood specialization has an engaging playstyle, using self-healing through Death Strike as a 
+                primary source of damage mitigation. Blood has a versatile defensive toolkit and is effective in 
+                the full range of combat.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Heartbreaker / Blooddrinker</p>
+                  <p class="info-build-txt">Hemostasis</p>
+                  <p class="info-build-txt">Ossuary</p>
+                  <p class="info-build-txt">Will of the Necropolis</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Bloodworms</p>
+                  <p class="info-build-txt">Red Thirst / Bonestorm</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Versatility</p>
+                  <p class="info-build-txt">Ring 2: Versatility</p>
+                  <p class="info-build-txt">Weapon: Rune of the Fallen Crusader</p>
+                  <p class="info-build-txt">Gems: Versatility</p>
+                  <p class="info-build-txt">Food: Stamina or Versatility</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Strength <br><span class="potion-indent">Superior Steelskin Potion</span><br><span class="potion-indent">Superior Battle Potion of Stamina</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Infinite Stars</p>
+                  <p class="info-build-txt">#3 Echoing Void</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Versatile</p>
+                  <p class="info-build-txt">#3 Surging Vitality</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide frost-slide">
+              <h2 class="info-slide-title">FROST</h2>
+              <p class="info-slide-para">The Frost specialization has a reasonable single target and AoE DPS. 
+                Duel weilding swords and mass frost damaging AOE spells provide the Frost DK the ability to 
+                maintain damage across a wide range of enemies, both single target and packs.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Cold Heart</p>
+                  <p class="info-build-txt">Runic Pattenuation</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Frozen Pulse / Frostscythe</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Gathering Storm / Frostwyrm's Fury</p>
+                  <p class="info-build-txt">Breath of Sindragosa</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Mastery</p>
+                  <p class="info-build-txt">Ring 2: Mastery</p>
+                  <p class="info-build-txt">Weapon 1: Rune of Razorice</p>
+                  <p class="info-build-txt">Weapon 2: Rune of the Fallen Crusader</p>
+                  <p class="info-build-txt">Gems: Mastery</p>
+                  <p class="info-build-txt">Food: Mastery</p>
+                  <p class="info-build-txt">Potions: Flask of the Undertow <br><span class="potion-indent">Potion of Focused Resolve</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Severe</p>
+                  <p class="info-build-txt">#2 Honed Mind</p>
+                  <p class="info-build-txt">#3 Masterful</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide unholy-slide">
+              <h2 class="info-slide-title">UNHOLY</h2>
+              <p class="info-slide-para">The Unholy specialisation provides moderate single target damage, but 
+                excells at mass AOE damage against 4+ targets. Unholy DK’s apply disease to their enemy that 
+                provides damage over time and has the ability to spread through a group or mob.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">All Will Serve</p>
+                  <p class="info-build-txt">Bursting Sores / Ebon Fever</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Soul Reaper</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Epidemic</p>
+                  <p class="info-build-txt">Unholy Frency</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Rune of the Fallen Crusader</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Flask of the Undertow <br><span class="potion-indent">Potion of Focused Resolve</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Expedient</p>
+                  <p class="info-build-txt">#2 Racing Pulse</p>
+                  <p class="info-build-txt">#3 Masterful</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="demon" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/dh_icon.png" alt="Demon Hunter Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">DEMON HUNTER</h2>
+                <p class="intro-para">Demon Hunters, disciples of Illidan Stormrage, uphold a dark legacy, one 
+                  that frightens their allies and enemies alike. The Illidari embrace fel and chaotic magics - 
+                  energies that have long threatened the world of Azeroth - believing them necessary to challenge 
+                  the Burning Legion. Wielding the powers of demons they’ve slain, they develop demonic features 
+                  that incite revulsion and dread in fellow elves.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide veng-slide">
+              <h2 class="info-slide-title">Vengeance</h2>
+              <p class="info-slide-para">Vengeance Demon Hunter gameplay features a mix between healing and damage 
+                mitigation, with low-cost and high-uptime active mitigation, the ability to frequently mitigate 
+                magic damage, and extremely high burst healing potential. They also do well against Magic damage.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Abyssal Strike</p>
+                  <p class="info-build-txt">Fallout</p>
+                  <p class="info-build-txt">Flame Crash</p>
+                  <p class="info-build-txt">Feed the Demon</p>
+                  <p class="info-build-txt">Sigil of Chains</p>
+                  <p class="info-build-txt">Gluttony</p>
+                  <p class="info-build-txt">Last Resort</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Versatility</p>
+                  <p class="info-build-txt">Weapon 1: Force Multiplier</p>
+                  <p class="info-build-txt">Weapon 2: Versatility</p>
+                  <p class="info-build-txt">Gems: Haste or Versatility</p>
+                  <p class="info-build-txt">Food: Stamina or Versatility</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Infinite Stars</p>
+                  <p class="info-build-txt">#3 Surging Vitality</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Versatile</p>
+                  <p class="info-build-txt">#3 Surging Vitality</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide havoc-slide">
+              <h2 class="info-slide-title">Havoc</h2>
+              <p class="info-slide-para">Demon Hunters are the kings of mobility in raids. In general, they can 
+                move around more and more quickly than many other specs, thanks to various talents that aid their 
+                mobility. Additionally, they excel at burst AoE damage, with many abilities dealing AoE and cleave 
+                damage. That said, their single target damage is also strong.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Demonic Appetite</p>
+                  <p class="info-build-txt">Immolation Aura / Demon Blades</p>
+                  <p class="info-build-txt">Trail of Ruin</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">First Blood</p>
+                  <p class="info-build-txt">Fel Eruption / Unleashed Power</p>
+                  <p class="info-build-txt">Demonic</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Mastery</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste / Versatility</p>
+                  <p class="info-build-txt">Ring 2: Haste / Versatility</p>
+                  <p class="info-build-txt">Weapon 1: Haste</p>
+                  <p class="info-build-txt">Weapon 2: versatility</p>
+                  <p class="info-build-txt">Gems: Haste / Versatility</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Twilight Devastation</p>
+                  <p class="info-build-txt">#3 Ineffable Truth</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="druid" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/druid_icon.jpg" alt="Druid Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">DRUID</h2>
+                <p class="intro-para">Druids harness the vast powers of nature to preserve balance and protect 
+                  life. With experience, druids can unleash nature’s raw energy against their enemies, raining 
+                  celestial fury on them from a great distance, binding them with chanted vines, or ensnaring 
+                  them in unrelenting cyclones.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide balan-slide">
+              <h2 class="info-slide-title">BALANCE</h2>
+              <p class="info-slide-para">Balance Druids shine in multiple target fights due to their ability to 
+                multi-DoT, and they also have good mobility due to their instant cast spells. However, while 
+                Balance Druid multi-target is strong, it still requires some set-up/ramp-up time and is not 
+                very bursty, resulting in other classes outperforming them in this area.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Nature's Balance</p>
+                  <p class="info-build-txt">Wild Charge</p>
+                  <p class="info-build-txt">Restoration Affinity</p>
+                  <p class="info-build-txt">Typhoon</p>
+                  <p class="info-build-txt">Starlord</p>
+                  <p class="info-build-txt">Twin Moon or Stellar Flare</p>
+                  <p class="info-build-txt">Shooting Stars</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste / Mastery</p>
+                  <p class="info-build-txt">Ring 2: Haste / Mastery</p>
+                  <p class="info-build-txt">Weapon: Torrent of Elements</p>
+                  <p class="info-build-txt">Gems: Haste / Mastery</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Endless Fathoms</p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Severe</p>
+                  <p class="info-build-txt">#3 Expedient</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide feral-slide">
+              <h2 class="info-slide-title">FERAL</h2>
+              <p class="info-slide-para">Feral, the Melee DPS specialisation for Druids, forms its core gameplay 
+                around balancing two separate resources whilst also leveraging those to apply powerful Bleed Damage 
+                over Time effects on targets. In terms of single target DPS, Feral is powerful and can often shine
+                 in these situations. When it comes to multiple target situations, Feral can perform well due to 
+                 increased targets to apply Bleed effects too, and has large-scale AoE tools to contribute well with.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Predator / Sabertooth</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Balance Affinity</p>
+                  <p class="info-build-txt">Player's CHoice</p>
+                  <p class="info-build-txt">Soul of the Forest / Savage Roar</p>
+                  <p class="info-build-txt">Brutal Slash / Primal Wrath</p>
+                  <p class="info-build-txt">Bloodtalons</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Criticl Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon 1: Force Multiplier</p>
+                  <p class="info-build-txt">Gems: Versatility</p>
+                  <p class="info-build-txt">Food: Versatility</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Infinite Stars</p>
+                  <p class="info-build-txt">#3 Gushing Wound</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide guard-slide">
+              <h2 class="info-slide-title">GUARDIAN</h2>
+              <p class="info-slide-para">Guardian Druid is a sturdy tank that manages damage intake through having 
+                strong passive reductions, a large health pool, increased healing received from Mastery, and a 
+                stackable active mitigation. They are an excellent sponge tank and once you have acquired enough 
+                gear they are mostly self-sufficient. Guardian Druids excel against encounters where a 
+                large majority of incoming damage is Physical or Melee damage.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Brambles</p>
+                  <p class="info-build-txt">Ursol's Vortex / Wild CHarge</p>
+                  <p class="info-build-txt">Restoration Affinity</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Galactic Guardian</p>
+                  <p class="info-build-txt">Earthwarden</p>
+                  <p class="info-build-txt">Rend and Tear / Pulverize</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Versatility</p>
+                  <p class="info-build-txt">Ring 2: Versatility</p>
+                  <p class="info-build-txt">Weapon: Force Multiplier</p>
+                  <p class="info-build-txt">Gems: Versatility</p>
+                  <p class="info-build-txt">Food: Stamina / Versatility</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Echoing Void</p>
+                  <p class="info-build-txt">#3 Infinite Stars</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Versatile</p>
+                  <p class="info-build-txt">#2 Siphoner</p>
+                  <p class="info-build-txt">#3 Expedient</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="info-slide rest-slide">
+              <h2 class="info-slide-title">RESTORATION</h2>
+              <p class="info-slide-para">Restoration Druids specialise in maintaining a steady stream of healing 
+                on a few targets in the raid and offer strong bursts of healing after using cooldowns. Restoration 
+                Druids also do well when healing a small amount of targets for a prolonged period of time (such as 
+                players with debuffs).
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Cenarion</p>
+                  <p class="info-build-txt">Tiger Dash / Wild Charge</p>
+                  <p class="info-build-txt">Guardian Affinity</p>
+                  <p class="info-build-txt">Typhoon</p>
+                  <p class="info-build-txt">Incarnation: Tree of Life</p>
+                  <p class="info-build-txt">Spring Blossoms</p>
+                  <p class="info-build-txt">Flourish</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Greater Flask of Endless Fathoms</p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Masterful</p>
+                  <p class="info-build-txt">#2 Expedient</p>
+                  <p class="info-build-txt">#3 Severe</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="hunter" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/hunter_icon.jpg" alt="Hunter Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">HUNTER</h2>
+                <p class="intro-para">From an early age, the call of the wild draws some adventurers from the 
+                  comfort of their homes into the unforgiving primal world outside. Those who endure become 
+                  Hunters. Masters of their environment, they are able to slip like ghosts through the trees 
+                  and lay traps in the paths of their enemies.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide beast-slide">
+              <h2 class="info-slide-title">BEAST MASTERY</h2>
+              <p class="info-slide-para">Beast Mastery is a highly mobile ranged DPS spec. It is the only Ranged spec 
+                in the game that is able to fully execute its rotation while moving. This makes it incredibly useful 
+                for dealing with mechanics in raids and dungeons, as it can do these things with no damage penalty.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Killer Instinct / Animal Companion</p>
+                  <p class="info-build-txt">Chimaera Shot</p>
+                  <p class="info-build-txt">Natural Mending</p>
+                  <p class="info-build-txt">Thrill of the Hunt</p>
+                  <p class="info-build-txt">Born to be Wild / Posthaste</p>
+                  <p class="info-build-txt">Stomp</p>
+                  <p class="info-build-txt">Aspect of the Beast</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike / Haste</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike / Haste</p>
+                  <p class="info-build-txt">Weapon: Gale-Force Striking</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Agility <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Severe</p>
+                  <p class="info-build-txt">#2 Expedient</p>
+                  <p class="info-build-txt">#3 Ineffable Truth</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide marks-slide">
+              <h2 class="info-slide-title">MARKSMAN</h2>
+              <p class="info-slide-para">Marksmanship is the least mobile Hunter spec, as it is the only spec that has 
+                to deal with long cast times during which you cannot move. From a playstyle perspective, Marksmanship 
+                is relatively simple with only a few central abilities you must understand to play the spec optimally.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Master Marksman</p>
+                  <p class="info-build-txt">Careful Aim</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Hunters Mark</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Double Tap</p>
+                  <p class="info-build-txt">Calling the Shots</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Versatility</p>
+                  <p class="info-build-txt">Ring 2: Versatility</p>
+                  <p class="info-build-txt">Weapon 1: Force Multiplier</p>
+                  <p class="info-build-txt">Gems: Versatility</p>
+                  <p class="info-build-txt">Food: Versatility</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Agility <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Gushing Wound</p>
+                  <p class="info-build-txt">#3 Expedient</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide sur-slide">
+              <h2 class="info-slide-title">SURVIVAL</h2>
+              <p class="info-slide-para">Survival is the Melee Hunter spec. It has a versatile toolkit with lots 
+                of Crowd Control potential, very high burst AoE damage potential, and good single-target damage.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Alpha Predator / Viper's Venom</p>
+                  <p class="info-build-txt">Guerrilla Tactics</p>
+                  <p class="info-build-txt">Natural Mending</p>
+                  <p class="info-build-txt">Bloodseeker</p>
+                  <p class="info-build-txt">Posthaste</p>
+                  <p class="info-build-txt">Mongoose Bite</p>
+                  <p class="info-build-txt">Bird of Fury</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Haste</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Agility <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Expedient</p>
+                  <p class="info-build-txt">#2 Infinite Stars</p>
+                  <p class="info-build-txt">#3 Gushing Wound</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="mage" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/mage_icon.jpg" alt="Mage Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">MAGE</h2>
+                <p class="intro-para">Students gifted with a keen intellect and unwavering discipline may 
+                  walk the path of the Mage. The arcane magic available to magi is both great and dangerous, 
+                  and thus is revealed only to the most devoted practitioners. To avoid interference with 
+                  their spellcasting, magi wear only cloth armor, but arcane shields and enchantments give 
+                  them additional protection. To keep enemies at bay, magi can summon bursts of fire to 
+                  incinerate distant targets and cause entire areas to erupt, setting groups of foes ablaze.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide arcane-slide">
+              <h2 class="info-slide-title">ARCANE</h2>
+              <p class="info-slide-para">Arcane provides impressive AoE, and decent Cleave, making it a strong 
+                candidate in dungeons and raid encounters with multiple targets. It also provides some of the 
+                strongest instant pressure and burst damage out of all classes, making Arcane perfectly suited 
+                to nuking down high priority targets. 
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Rule of Threes / Arcane Familiar</p>
+                  <p class="info-build-txt">Shimmer</p>
+                  <p class="info-build-txt">Incanter's Flow</p>
+                  <p class="info-build-txt">Charged Up</p>
+                  <p class="info-build-txt">Chrono Shift</p>
+                  <p class="info-build-txt">Touch of the Magi</p>
+                  <p class="info-build-txt">Overpowered / Time Anomaly</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Mastery</p>
+                  <p class="info-build-txt">Ring 2: Mastery</p>
+                  <p class="info-build-txt">Weapon: Haste</p>
+                  <p class="info-build-txt">Gems: Mastery</p>
+                  <p class="info-build-txt">Food: Mastery</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Intellect <br><span class="potion-indent">Greater Flask of Endless Fathoms</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Gushing Wound</p>
+                  <p class="info-build-txt">#3 Severe</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide fire-slide">
+              <h2 class="info-slide-title">FIRE</h2>
+              <p class="info-slide-para">The Fire specialization is fantastic at delivering both burst and sustained 
+                damage on a variety of fight types. Fire cleaves extremely efficiently on stacked targets, gaining 
+                overall damage without sacrificing any single target damage at all. Fire really shines on fights where 
+                a multitude of stacked targets all have equal or high priority.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Fire Starter</p>
+                  <p class="info-build-txt">Shimmer</p>
+                  <p class="info-build-txt">Incanter's Flow</p>
+                  <p class="info-build-txt">Flame On</p>
+                  <p class="info-build-txt">Frenetic</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Meteor</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste / Mastery</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery / Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Torrent of Elements</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Intellect <br><span class="potion-indent">Greater Flask of Endless Fathoms</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Glimpse of Clarity</p>
+                  <p class="info-build-txt">#3 Masterful</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide mg-frost-slide">
+              <h2 class="info-slide-title">FROST</h2>
+              <p class="info-slide-para">Frost has always excelled at limiting enemy movement while dealing reliable 
+                and predictable damage. Frost has always been a very potent choice for leveling and world content 
+                given you can endlessly kite enemies, with a multitude of snares and roots combined with damage on 
+                the move. Frost is great for quickly bursting down priority adds in dungeons and raids.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Bone Chilling</p>
+                  <p class="info-build-txt">Shimmer / Ice Floes</p>
+                  <p class="info-build-txt">Incanter's Flow</p>
+                  <p class="info-build-txt">Frozen Touch / Ebonbolt</p>
+                  <p class="info-build-txt">Frigid / Ward</p>
+                  <p class="info-build-txt">Splitting Ice</p>
+                  <p class="info-build-txt">Glacial Spike</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Mastery</p>
+                  <p class="info-build-txt">Ring 2: Mastery</p>
+                  <p class="info-build-txt">Weapon: Masterful Navigation</p>
+                  <p class="info-build-txt">Gems: Mastery</p>
+                  <p class="info-build-txt">Food: Mastery</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Intellect <br><span class="potion-indent">Greater Flask of Endless Fathoms</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Masterful</p>
+                  <p class="info-build-txt">#2 Honed Mind</p>
+                  <p class="info-build-txt">#3 Strikethrough</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="monk" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/monk_icon.png" alt="Monk Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">MONK</h2>
+                <p class="intro-para">Introduced during the Mists of Pandaria expansion, pandaren were subjugated 
+                  by the mogu centuries ago, it was the Monks that brought hope to a seemingly dim future. Restricted 
+                  from using weapons by their slave masters, these pandaren instead focused on harnessing their chi 
+                  and learning weaponless combat. When the opportunity for revolution struck, they were well-trained 
+                  to throw off the yoke of oppression.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide brew-slide">
+              <h2 class="info-slide-title">BREWMASTER</h2>
+              <p class="info-slide-para">Brewmaster is the tanking specialization of Monks, and they possess a wide 
+                array unique abilities. Brewmasters do not overly rely on avoiding damage through 
+                dodging and parrying attacks. Instead, they have Staggering damage, which causes only a portion of 
+                damage taken to be done to the Monk instantly. The rest of the damage is done over the course of 10 
+                seconds (with the possibility for the Monk to remove part of the non-instant damage by using Purifying Brew).
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Eye of the Tiger</p>
+                  <p class="info-build-txt">Chi Torpedoo</p>
+                  <p class="info-build-txt">Light Brewing</p>
+                  <p class="info-build-txt">Summon Black Ox Statue</p>
+                  <p class="info-build-txt">Bob and Weave</p>
+                  <p class="info-build-txt">Rushing Jade Wind</p>
+                  <p class="info-build-txt">High Tolerance</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Haste</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Mastery</p>
+                  <p class="info-build-txt">Ring 2: Mastery</p>
+                  <p class="info-build-txt">Weapon: Force Multiplier</p>
+                  <p class="info-build-txt">Gems: Mastery</p>
+                  <p class="info-build-txt">Food: Stamina</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Infinite Stars</p>
+                  <p class="info-build-txt">#3 Echoing Void</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Echoing Void</p>
+                  <p class="info-build-txt">#3 Surging Vitality</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide mist-slide">
+              <h2 class="info-slide-title">MISTWEAVER</h2>
+              <p class="info-slide-para">The Mistweaver specialisation is versatile, and different talent choices can 
+                allow it to fit the requirements of the raid very well. Mistweavers can, therefore, heal both tanks 
+                and the raid very well. Based on talent choices, Mistweavers can be either unparalleled tank healers 
+                with strong area of effect throughput, or damage dealing mobile raid healers.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Mist Wrap / Chi Burst</p>
+                  <p class="info-build-txt">Chi Torpedo / Tiger's Lust</p>
+                  <p class="info-build-txt">Lifecycles / Mana Tea</p>
+                  <p class="info-build-txt">Ring of Peace</p>
+                  <p class="info-build-txt">Diffuse Magic / Dampen Harm</p>
+                  <p class="info-build-txt">Summon Jade Serpent Statue</p>
+                  <p class="info-build-txt">Rising Mist</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Haste</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Greater Flask of Endless Fathoms <br><span class="potion-indent">Superior Battle Potion of Intellect</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Deadly Momentum</p>
+                  <p class="info-build-txt">#2 Surging Vitality</p>
+                  <p class="info-build-txt">#3 Racing Pulse</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide wind-slide">
+              <h2 class="info-slide-title">WINDWALKER</h2>
+              <p class="info-slide-para">The Windwalker specialization has strong priority target damage, very good 
+                AoE damage, and smooth rotations. In terms of actual output, it is underwhelming in its boss damage 
+                but can make up for it with good on demand damage on priority targets.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Ascension / Fist of the White Tiger</p>
+                  <p class="info-build-txt">Good Karma</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Hit Combo</p>
+                  <p class="info-build-txt">Whirling Dragon Punch</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item level</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Haste</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Versatility</p>
+                  <p class="info-build-txt">Ring 2: Versatility</p>
+                  <p class="info-build-txt">Weapon: Versatility</p>
+                  <p class="info-build-txt">Gems: Versatility</p>
+                  <p class="info-build-txt">Food: Versatility</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Superior Battle Potion of Agility</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Gushing Wound</p>
+                  <p class="info-build-txt">#3 Twilight Devastation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="paladan" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/paladin_icon.jpg" alt="Paladin Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">PALADIN</h2>
+                <p class="intro-para">This is the call of the Paladin: to protect the weak, to bring justice to 
+                  the unjust, and to vanquish evil from the darkest corners of the world. These holy warriors are 
+                  equipped with plate armor so they can confront the toughest of foes, and the blessing of the 
+                  Light allows them to heal wounds and, in some cases, even restore life to the dead.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide hy-slide">
+              <h2 class="info-slide-title">HOLY</h2>
+              <p class="info-slide-para">Holy Paladins specialize in tank and single-target healing, with this being 
+                their primary role. They excel at this because ofBeacon of Light and Holy Shock, as well as their 
+                efficient single-target heals. They also possess several tools that help them mitigate or avoid damage, 
+                both on themselves and on other raid members, such as Blessing of Protection and Devotion Aura. Holy 
+                Paladins lack mobility, but in general they are viable in raids and dungeons.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Bestow Faith</p>
+                  <p class="info-build-txt">Rule of Law</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Devotion Aura</p>
+                  <p class="info-build-txt">Judgement Light</p>
+                  <p class="info-build-txt">Avenging Crusader</p>
+                  <p class="info-build-txt">Becon of Faith</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Endless Fathoms <br><span class="potion-indent">Superior Battle Potion of Intellect</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Twisted Appendage</p>
+                  <p class="info-build-txt">#2 Twilight Devastation</p>
+                  <p class="info-build-txt">#3 Void Ritual</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Ineffable Truth</p>
+                  <p class="info-build-txt">#2 Expedient</p>
+                  <p class="info-build-txt">#3 Masterful</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide prot-slide">
+              <h2 class="info-slide-title">PROTECTION</h2>
+              <p class="info-slide-para">As a Protection Paladin, you can expect to perform the role of a 
+                solid and reliable tank. In general, your damage intake will be relatively smooth, with many 
+                attacks being blocked by your shield or softened by your strong active mitigation. No other 
+                tank class has quite the array of tricks up their sleeve that a paladin does.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Holy Shield</p>
+                  <p class="info-build-txt">Crusader's Judgement</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Cavalier</p>
+                  <p class="info-build-txt">Final Stand</p>
+                  <p class="info-build-txt">Consecrated Ground</p>
+                  <p class="info-build-txt">Righteous Protector</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Force Multiplier</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Flask of the Undertow <br><span class="potion-indent">Greater Flask of the Vast Horizon</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Expedient</p>
+                  <p class="info-build-txt">#3 Versatile</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Avoidant</p>
+                  <p class="info-build-txt">#3 Siphoner</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide ret-slide">
+              <h2 class="info-slide-title">RETRIBUTION</h2>
+              <p class="info-slide-para">Retribution Paladins attack their enemies using holy powers combined 
+                with solid strikes from two handed weapons. They are capable of dealing large amounts of single 
+                target damage in both burst and sustainable dps. The are also capable of dealing strong AOE 
+                damage making them highly valuable in a variety of situations. Additionally, retribution paladins 
+                provide a good amount of self healing which can lighten the healing load from healers.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Zeal / Execution Sentence</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Fist of Justice / Blinding Light</p>
+                  <p class="info-build-txt">Consecration</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Selfless Healer / Word of Glory</p>
+                  <p class="info-build-txt">Inquisition</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon: Deadly Navigation</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Flask of the Undertow <br><span class="potion-indent">Superior Battle Potion of Strength</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Masterful</p>
+                  <p class="info-build-txt">#2 Twilight Devastation</p>
+                  <p class="info-build-txt">#3 Infinite Stars</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="priest" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/priest_icon.jpg" alt="Priest Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">PRIEST</h2>
+                <p class="intro-para">Priests are devoted to the spiritual, and express their unwavering 
+                  faith by serving the people. For millennia they have left behind the confines of their 
+                  temples and the comfort of their shrines so they can support their allies in war-torn 
+                  lands. In the midst of terrible conflict, no hero questions the value of the priestly 
+                  orders.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide disc-slide">
+              <h2 class="info-slide-title">DISCIPLINE</h2>
+              <p class="info-slide-para">The Discipline specialisation relies on healing players through 
+                dealing damage (thanks to the Atonement Icon Atonement passive), but also has traditional 
+                heals and absorption spells. Healing through dealing damage allows Discipline Priests to 
+                contribute to the raid's DPS while still performing well as a healer. Discipline Priests 
+                provide very significant, on-demand AoE burst healing on a very short cooldown.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Schism</p>
+                  <p class="info-build-txt">Angelic Feather</p>
+                  <p class="info-build-txt">Power Word: Solace</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Sins of the Many / Shadow Covenant</p>
+                  <p class="info-build-txt">Purge the Wicked / Halo</p>
+                  <p class="info-build-txt">Lenience / Evangelism</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Greater Flask of Endless Fathoms <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Gushing Wound</p>
+                  <p class="info-build-txt">#2 Twilight Devastation</p>
+                  <p class="info-build-txt">#3 Twisted Appendage</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Expedient</p>
+                  <p class="info-build-txt">#2 Ineffable Truth</p>
+                  <p class="info-build-txt">#3 Severe</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide holy-slide">
+              <h2 class="info-slide-title">HOLY</h2>
+              <p class="info-slide-para">The Holy specialisation allows for smooth and very strong AoE/raid healing, 
+                and it performs very well in terms of single target healing as well. Holy has traditionally been a 
+                reactive healer, using a variety of spells at its disposal to quickly heal damage taken by their allies.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Enlightenment / Trail or Light</p>
+                  <p class="info-build-txt">Angelic Feather</p>
+                  <p class="info-build-txt">Cosmic Ripple / Guardian Angel</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Circle of Healing</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Apotheosis / Holy Word: Salvation</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Haste</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Mastery</p>
+                  <p class="info-build-txt">Ring 2: Mastery</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Mastery</p>
+                  <p class="info-build-txt">Food: Mastery</p>
+                  <p class="info-build-txt">Potions: Greater Flask of Endless Fathoms <br><span class="potion-indent">Potion of Unbridled Fury</span> /p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Gushing Wound</p>
+                  <p class="info-build-txt">#2 Twilight Devastation</p>
+                  <p class="info-build-txt">#3 Twisted Appendage</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Ineffable Truth</p>
+                  <p class="info-build-txt">#2 Masterful</p>
+                  <p class="info-build-txt">#3 Void Ritual</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide shadow-slide">
+              <h2 class="info-slide-title">SHADOW</h2>
+              <p class="info-slide-para">Shadow is currently on the lower end when it comes to single-target, but it compensates for with its high 
+                multi-target damage due to its DoTs and talents. The true mastery of Shadow Priests come 
+                from how well they perform their rotation while also respecting mechanics. Optimizing 
+                Insanity generation is key and it is this Voidform and Insanity management that allow for a 
+                fun and fairly fast-paced playstyle, when done correctly.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Shadow Word: Void</p>
+                  <p class="info-build-txt">Body and Soul</p>
+                  <p class="info-build-txt">twist of Fate</p>
+                  <p class="info-build-txt">Last Word</p>
+                  <p class="info-build-txt">Shadow Crash</p>
+                  <p class="info-build-txt">Lingering Insanity</p>
+                  <p class="info-build-txt">Legacy of the Void</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Greater Flask of Endless Fathoms <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Severe</p>
+                  <p class="info-build-txt">#3 Expedient</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="rogue" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/rogue_icon.jpg" alt="Rogue Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">ROGUE</h2>
+                <p class="intro-para">For Rogues, the only code is the contract, and their honor 
+                  is purchased in gold. Free from the constraints of a conscience, these mercenaries 
+                  rely on brutal and efficient tactics. Lethal assassins and masters of stealth, 
+                  they will approach their marks from behind, piercing a vital organ and vanishing 
+                  into the shadows before the victim hits the ground.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide assin-slide">
+              <h2 class="info-slide-title">ASSASSINATION</h2>
+              <p class="info-slide-para">Assassination Rogues deal damage through the application 
+                and empowerment of poison and bleed effects. The damage toolkit of Assassination is 
+                somewhat limited, mainly focusing on dealing single target damage over a long period. 
+                As with the other Rogue specializations, Assassination sports phenomenal defensive 
+                abilities that allow them to soak and survive mechanics that most other classes cannot.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Elaborate Planning</p>
+                  <p class="info-build-txt">Master Assassin</p>
+                  <p class="info-build-txt">Vigor</p>
+                  <p class="info-build-txt">Cheat Death</p>
+                  <p class="info-build-txt">Prey on the Weak</p>
+                  <p class="info-build-txt">Toxic Blade</p>
+                  <p class="info-build-txt">Poison Bomb</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon 1: Force Multiplier</p>
+                  <p class="info-build-txt">Weapon 2: Deadly Navigation</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Infinite Stars</p>
+                  <p class="info-build-txt">#3 Void Ritual</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide out-slide">
+              <h2 class="info-slide-title">OUTLAW</h2>
+              <p class="info-slide-para">Outlaw Rogue is a specialization that centers around managing resources 
+                while sustaining high damage to stacked targets. As in previous expansions, Outlaw is a fantastic 
+                jack of all trades that can comfortably handle any situation or fight type. Between the three 
+                Rogue specializations, Outlaw is the most effective in situations involving heavy cleave or burst-AoE.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Quick Draw</p>
+                  <p class="info-build-txt">Acrobatic Strikes</p>
+                  <p class="info-build-txt">Vigor</p>
+                  <p class="info-build-txt">Cheat Death</p>
+                  <p class="info-build-txt">Prey on the Weak</p>
+                  <p class="info-build-txt">Alacrity</p>
+                  <p class="info-build-txt">Blade Rush / Dancing Steel</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">versatility</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon 1: Force Multiplier</p>
+                  <p class="info-build-txt">Weapon 2: Deadly Navigation</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Twilight Devastion</p>
+                  <p class="info-build-txt">#3 Twisted Appendage</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide sub-slide">
+              <h2 class="info-slide-title">SUBTLETY</h2>
+              <p class="info-slide-para">Subtlety Rogues provide competitive single-target damage with 
+                respectable AoE. Much of the rotation involves actively shifting in and out of Stealth. Some abilities 
+                can be used at anytime, however, certain abilities 
+                can only be used while you are in Stealth. There are only a limited number of ways to activate Stealth 
+                during combat, and therefore the core component of this specialization revolves around managing your 
+                abilities to correctly time windows of burst.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Find Weakness</p>
+                  <p class="info-build-txt">Nightstalker</p>
+                  <p class="info-build-txt">Deeper Stratagem</p>
+                  <p class="info-build-txt">Cheat Death</p>
+                  <p class="info-build-txt">Prey on the Weak</p>
+                  <p class="info-build-txt">Enveloping Shadows</p>
+                  <p class="info-build-txt">Master of Shadows</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon 1: Force Multiplier</p>
+                  <p class="info-build-txt">Weapon 2: Deadly Navigation</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Twilight Devastion</p>
+                  <p class="info-build-txt">#3 Twisted Appendage</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="shaman" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/shaman_icon.jpg" alt="Shaman Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">SHAMAN</h2>
+                <p class="intro-para">Shamans are spiritual guides and practitioners, not of the divine, 
+                  but of the very elements. Unlike some other mystics, shamans commune with forces that 
+                  are not strictly benevolent. The elements are chaotic, and left to their own devices, 
+                  they rage against one another in unending primal fury. It is the call of the shaman to 
+                  bring balance to this chaos. Acting as moderators among earth, fire, water, and air, 
+                  shamans summon totems that focus the elements to support the shaman’s allies or punish 
+                  those who threaten them.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide ele-slide">
+              <h2 class="info-slide-title">ELEMENTAL</h2>
+              <p class="info-slide-para">Elemental Shaman is a damage dealing spellcaster with a rich and 
+                flexible toolkit. Elemental Shamans can approach a multitude of environments without feeling 
+                compromised. Through certain talents, Elemental can also provide very significant burst damage, 
+                allowing them to surge ahead during short damage checks or dungeon bosses. Overall, this 
+                specialization has a tool or talent for every scenario, although its sustained single target 
+                damage might be lacking.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Echo of the Elements</p>
+                  <p class="info-build-txt">Totem Mastery</p>
+                  <p class="info-build-txt">Spirit Wolf</p>
+                  <p class="info-build-txt">Master of the Elements</p>
+                  <p class="info-build-txt">Nature's Guardian</p>
+                  <p class="info-build-txt">Icyfury</p>
+                  <p class="info-build-txt">Stormkeeper</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Mastery</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Intellect <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Gushing Wound</p>
+                  <p class="info-build-txt">#3 Expedient</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide enhan-slide">
+              <h2 class="info-slide-title">ENHANCEMENT</h2>
+              <p class="info-slide-para">Enhancement Shamans are the duel wielders of casters, striking their 
+                enemies with single handed weapons causing both phyiscal damage and elemental damage. With the 
+                support of elemental powers, this class is highly versatile, providing a sustainable dps on 
+                bosses and key targets. However, these close combat fights need to take advantage of higher 
+                level gear in order to deal serious damage that other classes can achieve at lower gear levels.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Lightning Shield</p>
+                  <p class="info-build-txt">Forceful Winds</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Searing Assault</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Sundering</p>
+                  <p class="info-build-txt">Ascendance</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon 1: Force Multiplier</p>
+                  <p class="info-build-txt">Weapon 2: Quick Navigation</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Currents <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Expedient</p>
+                  <p class="info-build-txt">#3 Gushing Wound</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide restoration-slide">
+              <h2 class="info-slide-title">RESTORATION</h2>
+              <p class="info-slide-para">Restoration Shaman is an extremely flexible specialization that shines 
+                when healing groups of players that are clumped together. They have a variety of unique tools 
+                to deal with otherwise deadly influxes of damage, such as Spirit Link. Because Chain Heal has 
+                no cooldown, Restoration Shamans are one of the few healers that can area of effect heal 
+                continuously when dangerous unexpected damage happens.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Unleash Life</p>
+                  <p class="info-build-txt">Echo of the Elements / Deluge</p>
+                  <p class="info-build-txt">Spirit</p>
+                  <p class="info-build-txt">Earthen Wall Totem / Ancestral Protection Totem</p>
+                  <p class="info-build-txt">Nature's Guardian</p>
+                  <p class="info-build-txt">Cloudburst Totem</p>
+                  <p class="info-build-txt">Hide Tide</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Mastery</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Greater Flask of Endless Fathoms <br><span class="potion-indent">Superior Battle Potion of Intellect</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Gushing Wound</p>
+                  <p class="info-build-txt">#3 Twisted Appendage</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Expedient</p>
+                  <p class="info-build-txt">#2 Masterful</p>
+                  <p class="info-build-txt">#3 Severe</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="warlock" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/warlock_icon.jpg" alt="Warlock Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">WARLOCK</h2>
+                <p class="intro-para">Warlocks are the summons of demons and hell fire. While being a vrey fun class to play, 
+                  it does take a considerable amount of rotation control to establish a high level of dps. What makes this class 
+                  so valuable though is their extreme ability to stay alive with movement and self healing abilities and having demons 
+                  that can tank, silence, and even heal. Add that warlocks also supply players with an additional movement ability, 
+                  "lock rocks" to self heal, and the ability to resurrect, one can see that they become a well know staple 
+                  in both raids and mythic plus.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide aff-slide">
+              <h2 class="info-slide-title">AFFLICTION</h2>
+              <p class="info-slide-para">Affliction Warlocks excel at sustaining high single-target 
+                and multiple-target damage. Most of your damage comes from the application of harmful 
+                damage over time effects (DoTs). This allows them to effectively cleave on targets 
+                that are spread around an area, something many specializations struggle with or are 
+                flat out unable to do. Just like the other Warlock specializations, Affliction Warlocks 
+                bring the Demonic Gateway ability to the raid, which can be an invaluable mobility cooldown.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Deathbolt</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Burning Rush / Dark Pact</p>
+                  <p class="info-build-txt">Phantom Singularity</p>
+                  <p class="info-build-txt">Demonic Circle</p>
+                  <p class="info-build-txt">Haunt</p>
+                  <p class="info-build-txt">Cark SOul: Misery</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Mastery</p>
+                  <p class="info-build-txt">Ring 2: Mastery</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Mastery</p>
+                  <p class="info-build-txt">Food: Mastery</p>
+                  <p class="info-build-txt">Potions: Greater Flask of Endless Fathoms <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Expedient</p>
+                  <p class="info-build-txt">#3 Gushing Wound</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide demon-slide">
+              <h2 class="info-slide-title">DEMONOLOGY</h2>
+              <p class="info-slide-para">Demonology has a fun and medium paced rotation, focused around summoning 
+                forces of evil to do your bidding while you generate resources in between. While the specialization 
+                does have some ramp up time, it does feel smooth and fast once it is running at full steam. 
+                Demonology Warlocks are especially strong on encounters that have stable mobility, rather than 
+                helter skelter movement.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Demonic Strength</p>
+                  <p class="info-build-txt">Demonic Calling</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Soul Strike</p>
+                  <p class="info-build-txt">Demonic Circle</p>
+                  <p class="info-build-txt">Grimoire: Felguard</p>
+                  <p class="info-build-txt">Demonic Consumption</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Intellect <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Expedient</p>
+                  <p class="info-build-txt">#3 Gushing Wound</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide destro-slide">
+              <h2 class="info-slide-title">DESTRUCTION</h2>
+              <p class="info-slide-para">Destruction warlocks call upon the very fire of hell to scortch and burn their enemies
+                to dust. With an easy to maintain rotation, destro warlocks can provide great sustainable dps on any target and 
+                burst dps on priority targets. Through use of their demonic portals and burning rush, warlocks in general are 
+                among the most mobile casters in the game.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Eradication</p>
+                  <p class="info-build-txt">Internal Combustion</p>
+                  <p class="info-build-txt">Burning Rush</p>
+                  <p class="info-build-txt">Cataclysm</p>
+                  <p class="info-build-txt">Demonic Circle</p>
+                  <p class="info-build-txt">Grimoire of Supremacy</p>
+                  <p class="info-build-txt">Dark Soul: Instability</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Mastery</p>
+                  <p class="info-build-txt">Ring 2: Mastery</p>
+                  <p class="info-build-txt">Weapon: Machinist's Brilliance</p>
+                  <p class="info-build-txt">Gems: Mastery</p>
+                  <p class="info-build-txt">Food: Mastery</p>
+                  <p class="info-build-txt">Potions: Superior Battle Potion of Intellect <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Expedient</p>
+                  <p class="info-build-txt">#3 Gushing Wound</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="warrior" class="char-info-section">
+            <div class="intro">
+              <div class="img-section">
+                <img class="img-size" src="../images/character_builds_images/char_images/warrior_icon.jpg" alt="Warrior Class Image">
+              </div>
+              <div class="intro-info">
+                <h2 class="intro-heading">WARRIOR</h2>
+                <p class="intro-para">For as long as war has raged, heroes from every race have aimed 
+                  to master the art of battle. Warriors combine strength, leadership, and a vast knowledge 
+                  of arms and armor to wreak havoc in glorious combat. Some protect from the front lines 
+                  with shields, locking down enemies while allies support the warrior from behind with 
+                  spell and bow. Others forgo the shield and unleash their rage at the closest threat 
+                  with a variety of deadly weapons.
+                </p>
+              </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="info-slide arms-slide">
+              <h2 class="info-slide-title">ARMS</h2>
+              <p class="info-slide-para">Arms Warriors are strong but somewhat slow damage dealers which revolve 
+                around building burst damage windows with Colossus Smash. Their greatest strength comes in the 
+                form of a versatile toolkit, offering Single Target, close-range cleave, burst AoE, and even a 
+                limited form of physical damage immunity.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Skullsplitter</p>
+                  <p class="info-build-txt">Double Time</p>
+                  <p class="info-build-txt">Fervor of Battle</p>
+                  <p class="info-build-txt">Defensive Stance / Bounding Stride</p>
+                  <p class="info-build-txt">Warbreaker</p>
+                  <p class="info-build-txt">In for the Kill</p>
+                  <p class="info-build-txt">Anger Management</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Gale-Force Striking</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Undertow <br><span class="potion-indent">Potion of Empowered Proximity</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Expedient</p>
+                  <p class="info-build-txt">#2 Twilight Devastation</p>
+                  <p class="info-build-txt">#3 Void Ritual</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="info-slide fury-slide">
+              <h2 class="info-slide-title">FURY</h2>
+              <p class="info-slide-para">Fury Warriors have very smooth gameplay with consistent single target, 
+                passive multitarget cleave, and a streamlined rotation in which Rampage and Enrage are the most 
+                important gameplay elements, while built-in Haste buffs make Fury one the fastest action 
+                specializations in the game. In additon to a well-rounded offensive toolkit, Fury boasts high 
+                mobility, strong self healing, and one of the few raid-wide defensive cooldowns in the game.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Endless Rage</p>
+                  <p class="info-build-txt">Double Time</p>
+                  <p class="info-build-txt">Sudden Death</p>
+                  <p class="info-build-txt">Warpaint / Bounding Stride</p>
+                  <p class="info-build-txt">Carnage</p>
+                  <p class="info-build-txt">Dragon Roar</p>
+                  <p class="info-build-txt">Siegebreaker / Anger Management</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Mastery</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Item Level</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Critical Strike</p>
+                  <p class="info-build-txt">Ring 2: Critical Strike</p>
+                  <p class="info-build-txt">Weapon 1: Deadly Navigation</p>
+                  <p class="info-build-txt">Weapon 2: Quick Navigation</p>
+                  <p class="info-build-txt">Gems: Critical Strike</p>
+                  <p class="info-build-txt">Food: Critical Strike</p>
+                  <p class="info-build-txt">Potions: Greater Flask of the Undertow <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions</h3>
+                  <p class="info-build-txt">#1 Infinite Stars</p>
+                  <p class="info-build-txt">#2 Twilight Devastation</p>
+                  <p class="info-build-txt">#3 Gushing Wound</p>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="info-slide protection-slide">
+              <h2 class="info-slide-title">PROTECTION</h2>
+              <p class="info-slide-para">Protection Warriors excel in fights with high amounts of physical damage, 
+                or where mobility is needed. Much of the damage they take is mitigated through blocking, making 
+                their damage intake smooth and predictable. Additionally, they provide a healthy amount of utility, 
+                whether it be crowd control or raid buffs. They are a formidable tank all around, making them a 
+                worthy choice in both raids and dungeons.
+              </p>
+              <div class="info-build-section">
+                <div class="info-talents">
+                  <h3 class="info-build-section-titles">Talents</h3>
+                  <p class="info-build-txt">Into the Frey</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Unstopable</p>
+                  <p class="info-build-txt">Bolster</p>
+                  <p class="info-build-txt">Player's Choice</p>
+                  <p class="info-build-txt">Booming Voice</p>
+                  <p class="info-build-txt">Anger Management</p>
+                </div>
+                <div class="info-stats">
+                  <h3 class="info-build-section-titles">Stats</h3>
+                  <p class="info-build-txt">Item Level</p>
+                  <p class="info-build-txt">Haste</p>
+                  <p class="info-build-txt">Critical Strike</p>
+                  <p class="info-build-txt">Versatility</p>
+                  <p class="info-build-txt">Mastery</p>
+                </div>
+                <div class="info-buffs">
+                  <h3 class="info-build-section-titles">Buffs</h3>
+                  <p class="info-build-txt">Ring 1: Haste</p>
+                  <p class="info-build-txt">Ring 2: Haste</p>
+                  <p class="info-build-txt">Weapon: Force Multiplier</p>
+                  <p class="info-build-txt">Gems: Haste</p>
+                  <p class="info-build-txt">Food: Haste</p>
+                  <p class="info-build-txt">Potions: Flask of the Undertow <br><span class="potion-indent">Potion of Unbridled Fury</span></p>
+                </div>
+              </div>
+              <div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Offensive</h3>
+                  <p class="info-build-txt">#1 Twilight Devastation</p>
+                  <p class="info-build-txt">#2 Infinite Stars</p>
+                  <p class="info-build-txt">#3 Twisted Appendage</p>
+                </div>
+                <div class="corruption-build">
+                  <h3 class="info-build-section-titles">Corruptions - Defensive</h3>
+                  <p class="info-build-txt">#1 Expedient</p>
+                  <p class="info-build-txt">#2 Versatile</p>
+                  <p class="info-build-txt">#3 Twilight Devastation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="footer-div">
+        <div class="footer-div-section">
+          <h4 class="footer-txt">2020 | FRANCIS WEB DEVELOPMENT US</h4>
+        </div>
+      </div>
+    </footer>
+    </section>
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../js/selector.js"></script>
+    <!-- search script from javascriptkit-->
+    <script>
+      var domainroot="www.javascriptkit.com"
+      var searchaction=[
+      "http://www.google.com/search"
+      ]
+      var queryfieldname=["q","p","q"]
+      function switchaction(cur, index){
+      cur.form.action=searchaction[index]
+      document.getElementById("hiddenquery").name=queryfieldname[index]
+      }
+      function jksitesearch(curobj){
+      for (i=0; i< document.jksearch.se.length; i++){
+      if (document.jksearch.se[i].checked==true)
+      switchaction(document.jksearch.se[i], i)
+      }
+      document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+      }
+      </script>
+  </body>
+</html>

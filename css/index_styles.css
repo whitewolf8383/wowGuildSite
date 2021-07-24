@@ -1,0 +1,99 @@
+body{
+  background-image: url(../images/guild_landing_page_images/Guild_landing_site_bg.png);
+}
+
+/* Main Content */
+.intro-div{
+  color: rgb(255,255,255);
+  text-align: center;
+}
+.intro-div-section{
+  display: block;
+  width: 1160px;
+  margin: auto;
+  position: static;
+}
+.intro-wt{
+  font-family: Neuton;
+  font-size: 80px;
+  font-weight: normal;
+  letter-spacing: 15px;
+  margin-top: 150px;
+}
+.intro-doodles{
+  font-family: Playball;
+  font-size: 160px;
+  letter-spacing: 15px;
+  color: rgb(185, 26, 192);
+}
+.hr{
+  width: 550px;
+  margin: auto;
+}
+.intro-whisper{
+  font-family: Playball;
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding-top: 4px;
+}
+
+@media screen and (max-width: 1120px){
+  /* Main Content */
+  .intro-div-section{
+    width: 800px;
+  }
+  .intro-wt{
+    font-size: 60px;
+    margin-top: 100px;
+  }
+  .intro-doodles{
+    font-size: 120px;
+  }
+  .hr{
+    width: 475px;
+  }
+  .intro-whisper{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  /* Main Content */
+  .intro-div-section{
+    width: 600px;
+  }
+  .intro-wt{
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .intro-doodles{
+    font-size: 90px;
+  }
+  .hr{
+    width: 390px;
+  }
+  .intro-whisper{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 601px){
+  /* Main Content */
+  .intro-div-section{
+    width: 450px;
+  }
+  .intro-wt{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .intro-doodles{
+    font-size: 60px;
+  }
+  .hr{
+    width: 390px;
+  }
+  .intro-whisper{
+    font-size: 14px;
+  }
+}

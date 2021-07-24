@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175533281-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-175533281-1');
+    </script>
+    <meta name="google-site-verification" content="zdMvvuaxZy1-XIzmChsjcMDyT1sd_tzYa_ZDjeAsVnU" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Keith J Francis">
+    <meta name="description" content="This pages provides information pertaining to the variuos dungeons found in the new Shadowlands 
+    expansion so that players may study the dungeon prior to expansion release and be able to lead throught successful dungeon runs.">
+    <meta name="keywords" content="doodles, whisperwind, teaching guild, world of warcraft, wow">
+    <title>Shadowlands Dungeons</title>
+    
+    <!-- script styles  from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Neuton&family=Playball&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Link section -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/nav_footer_styles.css">
+    <link rel="stylesheet" href="../css/shadowlands_dungeons_styles.css">
+
+  </head>
+  <body>
+    <header class="intro-sec">
+    <div class="dk-div">
+      <div class="nav-bar">
+        <div class="nav-bar-section">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a href="index.html">
+              <img class="nav-bar-img" src="../images/guild_landing_page_images/black_dragon_head.png" alt="black dragons head">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a href="guild_intro_page.html" class="nav-bar-section-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a href="guild_officers.html" class="nav-bar-section-link">OFFICERS</a>
+                </li>
+                <li class="nav-item">
+                  <a href="character_builds.html" class="nav-bar-section-link">CHARACTERS</a>
+                </li>
+                <li class="nav-item">
+                  <a href="corruption_system_overview.html" class="nav-bar-section-link">CORRUPTION SYSTEM</a>
+                </li>
+                <!-- drop down menu-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" style="color: white; font-family: Roboto; font-weight: 500; font-size: 18px; letter-spacing: 3px; padding: 0 5px 0 5px;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SHADOWLANDS
+                  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="shadowlands_overview.html">OVERVIEW</a>
+                      <a class="dropdown-item" href="shadowlands_play_areas.html">QUESTING AREAS</a>
+                      <a class="dropdown-item" href="covenant_details.html">COVENANTS</a>
+                      <a class="dropdown-item" href="shadowlands_dungeons.html">DUNGEONS</a>
+                    </div>
+                </li>
+              </ul>
+                <!-- Search Box-->
+                <form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+                  <input id="hiddenquery" type="hidden" name="q" />
+                  <input name="qfront" type="text" class="nav-bar-search-box" placeholder=" Search"/> 
+                  <input type="submit" style="display: none"/>
+                  <div style="display: none;">
+                    Google:<input name="se">
+                  </div>
+                </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <article>
+        <div class="intro-div">
+          <h1 class="title top-title">Shadowlands Dungeons</h1>
+          <p class="intro-para">With the destruction of thw vale that seperated Shadowlands from Azeroth comes an all new adventure. 
+            Shadowlands, the home to the souls that have passed from the world of living, offers 5 new zones for 
+            adventures to quest through along with 8 new dungeons, 4 leveling and 4 max level dungeons, as well 
+            as a new, ever changing dungeon that players can solo or group run through. This dungeon offers unique 
+            rewards that players will need to collect to craft legendary weapons and gear.</p>
+        </div>
+      </article>
+    </div>
+    </header>
+    <article class="dungeon-info-section">
+      <div class="dungeon-selector">
+        <div class="char-selection-section">
+          <div class="row-1">
+            <div class="selector">
+              <button class="icon icon-title" onclick="openSection(event, 'necro')">
+                The Necrotic Wake
+                <img class="icon-img" src="../images/shadowlands_dungeons_images/necro_wake_icon.png" alt="Icon image of The Necrotic Wake Dungeon">
+              </button>
+            </div>
+            <div class="selector">
+              <button class="icon icon-title" onclick="openSection(event, 'pain')">
+                Theator of Pain
+                <img class="icon-img" src="../images/shadowlands_dungeons_images/pain_icon.png" alt="Icon image of Theator of Pain Dungeon">
+              </button>
+            </div>
+            <div class="selector">
+              <button class="icon icon-title" onclick="openSection(event, 'mists')">
+                Mists of Tirna Scithe
+                <img class="icon-img" src="../images/shadowlands_dungeons_images/mists_icon.png" alt="Icon image of Mists of Tirna Scithe Dungeon">
+              </button>
+            </div>
+            <div class="selector">
+              <button class="icon icon-title" onclick="openSection(event, 'halls')">
+                Halls of Atonement
+                <img class="icon-img" src="../images/shadowlands_dungeons_images/halls_icon.png" alt="Icon image of Halls of Atonement Dungeon">
+              </button>
+            </div>
+          </div>
+          <div class="row-2">
+            <div class="selector">
+              <button class="icon icon-title" onclick="openSection(event, 'spires')">
+                Spires of Ascension
+                <img class="icon-img" src="../images/shadowlands_dungeons_images/spires_icon.png" alt="Icon image of Spires of Ascension Dungeon">
+              </button>
+            </div>
+            <div class="selector">
+              <button class="icon icon-title" onclick="openSection(event, 'plag')">
+                Plaguefall <br>
+                <img class="icon-img" src="../images/shadowlands_dungeons_images/plag_icon.png" alt="Icon image of Plaguefall Dungeon">
+              </button>
+            </div>
+            <div class="selector">
+              <button class="icon icon-title" onclick="openSection(event, 'side')">
+                De Other Side
+                <img class="icon-img" src="../images/shadowlands_dungeons_images/de_other_icon.png" alt="Icon image of De Other Side Dungeon">
+              </button>
+            </div>
+            <div class="selector">
+              <button class="icon icon-title" onclick="openSection(event, 'sang')">
+                Sanguine Depths
+                <img class="icon-img" src="../images/shadowlands_dungeons_images/sang_icon.png" alt="Icon image of Sanguine Depths Dungeon">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dungeon-info-section">
+        <!-- The Necrotic Wake -->
+        <div id="necro" class="dungeon-info char-info-section">
+          <div class="dungeon-top">
+            <h2 class="title">The Necrotic Wake</h2>
+            <div class="top-div">
+              <p class="top-para">As one of the first leveling dungeons players will face, Necrotic Wake offers some unique mob 
+                interactions to include necromancers who can keep their dead allies alive to fight. While mobs 
+                fill this dungeon, there are simle pathways to get through with minimal killing should you wish 
+                to speed run through it for the dungeon experiance points.</p>
+                <iframe class="player"
+                src="https://www.youtube.com/embed/PvpIn2am8YQ?controls=0">
+              </iframe>
+            </div>
+          </div>
+          <div class="dungeon-map">
+            <h2 class="title">Dungeon Map</h2>
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/necrotic_wake_map.png" alt="Map of the Necrotic Wake Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/necrotic_wake_map2.jpg" alt="Map of the Necrotic Wake Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/necrotic_wake_map3.jpg" alt="Map of the Necrotic Wake Dungeon">
+            <h2 class="title">Dungeon Bosses</h2>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/brightbone_boss.png" alt="Brightbone dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Blightbone</h3>
+                <p class="boss-para">As the first boss of Necrotic wake, Blightbone patrols the area just in front of the dungeon entrance. <br>
+                  Play style:<br>
+                  <span class="para-break">Dodge his frontal cone attack.</span><br>
+                  <span class="para-break">Kill worms as fast as possible and run if fixated.</span><br>
+                  <span class="para-break">Stay out of green pools spawned by boss.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/amarth_boss.png" alt="Amarth dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Amarth</h3>
+                <p class="boss-para">The second boss of Necrotic spawns after all the trash in the area suddenly dies. <br>
+                  Play style: <br>
+                  <span class="para-break">Interrupt Necrotic Bolt.</span><br>
+                  <span class="para-break">Dodge frontal breath attack.</span><br>
+                  <span class="para-break">Remove enrage if possible and kill adds when summoned.</span><br>
+                  <span class="para-break">Boss will detonate all adds causing AOE damage, focus adds down fast.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/stitchflesh_boss.png" alt="Surgeon Stitchflesh dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Surgeon Stitchflesh</h3>
+                <p class="boss-para">As the third boss of Necrotic, Stitchflesh is immune to damage while on his platform. Start by attacking his minion. <br>
+                  Play style: <br>
+                  <span class="para-break">Attack and pull minion into center of room.</span><br>
+                  <span class="para-break">Dodge green swirls spawned by Embalming Ichor</span><br>
+                  <span class="para-break">If trageted by “Meat Hook”, move so that the arrow points toward boss, then dodge at end of cast.</span><br>
+                  <span class="para-break">Focus boss when pulled from plaform. Repeat untill boss is dead.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/naithor_boss.png" alt="Naithor dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Naithor</h3>
+                <p class="boss-para">Naithor as the final boss of Necrotic is a straight forward boss. <br>
+                  Play style: <br>
+                  <span class="para-break">Keep spread out is possible and move out of blue circles that spawn.</span><br>
+                  <span class="para-break">Dodge blue swirls that appear under feet.</span><br>
+                  <span class="para-break">If chosen to be sent down, the player will run to end of platform while dodging swirls, then 
+                          kill add to return to upper level.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <!-- Theator of Pain -->
+        <div id="pain" class="dungeon-info char-info-section">
+          <div class="dungeon-top">
+            <h2 class="title">Theater of Pain</h2>
+            <div class="top-div">
+              <p class="top-para">The Theater of Pain dungeon is one of the four leveling dungeons in Shadowlands. This dungeon offers 
+                unique challenges, including a three way boss fight and a one on one pvp brawl. The majority of this dungeon will consist 
+                of the bosses them selves as there are only a few mobs to kill. After killing the trio of bosses to start the dungeon, your 
+                free to adventure to any other boss.</p>
+                <iframe class="player"
+                src="https://www.youtube.com/embed/dpkiLeC-D94?controls=0">
+              </iframe>
+            </div>
+          </div>
+          <div class="dungeon-map">
+            <h2 class="title">Dungeon Map</h2>
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/top-map-1.jpg" alt="Map of Theater of Pain Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/top-map-2.jpg" alt="Second map of Theater of Pain Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/top-map-3.jpg" alt="Third map of Theater of Pain Dungeon">
+            <h2 class="title">Dungeon Bosses</h2>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Brightbone dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">An Affront of Challengers</h3>
+                <p class="boss-para">As the first boss of Theater of Pain, the Affront of Challengers is a trio of 
+                  fighters, each coming with their own abilities and each gains a buff at 40% health.<br>
+                  Play style:<br>
+                  <span class="para-break">Kill each boss one at a time to prevent an overlap of buffs on Bosses.</span><br>
+                  <span class="para-break">Follow the kill order: Sathel > Paceran > Dessia</span><br>
+                  <span class="para-break">Run away when fixated, don't stand in green, dispel Spectral Transference, stand 
+                    by yourself with disease.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Amarth dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Xav the Unfallen</h3>
+                <p class="boss-para">As one of the secondary bosses, Xav is known for sparing and loves watching players fight 
+                  it out in the arena. <br>
+                  Play style: <br>
+                  <span class="para-break">Focus and Kill "Oppressive Banner" when spawned.</span><br>
+                  <span class="para-break">Dodge "Crushing Slam" and "Massive Cleave" when Xav gets to full energy.</span><br>
+                  <span class="para-break">If sent to duel, the winner gets a buff and the loser gets a debuff for 30 secs.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Surgeon Stitchflesh dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Gorechop</h3>
+                <p class="boss-para">As another secondary boss, Gorechop is a simple boss to defeat, as long as you follow basic mechanics.<br>
+                  Play style: <br>
+                  <span class="para-break">Dodge "Meat Hooks" that sweep across floor.</span><br>
+                  <span class="para-break">Kill adds that spawn during sweeping meat hooks.</span><br>
+                  <span class="para-break">Move out of and don't stand in green pools dropped by adds.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Naithor dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Kul'tharok</h3>
+                <p class="boss-para">As the last secondary boss, there are a few mechanics that strongly need to be followed.<br>
+                  Play style: <br>
+                  <span class="para-break">Tank must remain with boss at all times or get stacking DOT.</span><br>
+                  <span class="para-break">DPS and Healr need to stay slightly spread out to avoid damage from Haunt.</span><br>
+                  <span class="para-break">If possible, dispell Haunt as quickly as possible and dodge green swirlies.</span><br>
+                  <span class="para-break">If "Draw Soul" is cast on you, run behind the green circle on floor so that 
+                    it's between you and boss. Recollect soul after stun has warn off.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Naithor dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Mordretha, the Endless Empress</h3>
+                <p class="boss-para">As the final boss of Theator of Pain, Mordretha's fight is simple to complete.<br>
+                  Play style: <br>
+                  <span class="para-break">Dodge frontal cone attach and run from it's random directional rotation.</span><br>
+                  <span class="para-break">Spread out when group gets green circle around feet.</span><br>
+                  <span class="para-break">Move to opposite side of room when "Grasping Rift" spawns and dont get pulled in by it.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- Mists of Tirna Scithe -->
+        <div id="mists" class="dungeon-info char-info-section">
+          <div class="dungeon-top">
+            <h2 class="title">Mists of Tirna Scithe</h2>
+            <div class="top-div">
+              <p class="top-para">Mists of Tirna Scithe is another leveling dungeon that allows you to play games within it... well sort of. 
+                Everyone will have to find their way through a puzzle maze during this dungeon. Failure will send you back to the 
+                beginning of the maze. 
+              </p>
+                <iframe class="player"
+                src="https://www.youtube.com/embed/3VrAdQDo1_w?controls=0">
+              </iframe>
+            </div>
+          </div>
+          <div class="dungeon-map">
+            <h2 class="title">Dungeon Map</h2>
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/mists_of_tirne_map.jpg" alt="Map of Mist of Tirne Scithe Dungeon">
+            <h2 class="title">Dungeon Bosses</h2>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Ingra Maloch dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Ingra Maloch</h3>
+                <p class="boss-para">Ingra Maloch will be your first boss encounter. He spawns a large add that must be killed as 
+                  fast as possible to get damage buff. Use AOE damage when boss and add are near by to get splash damage on boss.<br>
+                  Play style:<br>
+                  <span class="para-break">Tank needs to ensure add is always facing away from group.</span><br>
+                  <span class="para-break">Dodge frontal cone attack from add and interput Maloch when casting "Tears of the Forest".</span><br>
+                  <span class="para-break">Do NOT hit Maloch when "Embrace Darkness" is active to avoid self damage.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Mistcaller dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Mistcaller</h3>
+                <p class="boss-para">The second boss of Mist is the mistcaller. To reach this boss, you must pass through a 
+                  maze by selecting the correct symbols and going through the portal. <br>
+                  Play style: <br>
+                  <span class="para-break">Dodge the frontal cone attack "Dodge Ball"</span><br>
+                  <span class="para-break">Tank must interrupt "Patty Cake"</span><br>
+                  <span class="para-break">Avoid the blue fox when summoned or get 8 sec stun.</span><br>
+                  <span class="para-break">Only kill the clone with the different symbol, or take massive group damage.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Tred'ova dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Tred'ova</h3>
+                <p class="boss-para">The final boss of Mist is a giant worm called Tred-ova. Very simple fight, but requires a lot of dodging.<br>
+                  Play style: <br>
+                  <span class="para-break">Dodge all blue and green swirlies.</span><br>
+                  <span class="para-break">When "Mind Link" is cast on you and a partner, run away to break.</span><br>
+                  <span class="para-break">Tank needs to collect adds, all focus adds down.</span><br>
+                  <span class="para-break">If targeted by add, run away while others kill it.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- Halls of Atonement -->
+        <div id="halls" class="dungeon-info char-info-section">
+          <div class="dungeon-top">
+            <h2 class="title">Halls of Atonement</h2>
+            <div class="top-div">
+              <p class="top-para">As your last leveling dungeon, Halls of atonement features some serious bosses that can easily wipe a 
+                group if mechanics aren't followed. Make sure to follow the guide to ensure success and remember, where there is great trial, 
+                there is also great reward.</p>
+                <iframe class="player"
+                src="https://www.youtube.com/embed/Pm5r3XJMCCI?controls=0">
+              </iframe>
+            </div>
+          </div>
+          <div class="dungeon-map">
+            <h2 class="title">Dungeon Map</h2>
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/halls_of_atonement_map.jpg" alt="Map of Halls of Atonement Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/halls_of_atonement_map2.jpg" alt="Second map of Halls of Atonement Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/halls_of_atonement_map3.jpg" alt="Third map of Halls of Atonement Dungeon">
+            <h2 class="title">Dungeon Bosses</h2>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Halkias dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Halkias, the Sin-Stained Goliath</h3>
+                <p class="boss-para">This boss spawns after you have killed 3 Shards of Halkias, but make sure to kill 
+                  enough mobs to open the fighting area before doing so.<br>
+                  Play style:<br>
+                  <span class="para-break">Do not stand on tank as tank will get hit by "Crumbling Slam".</span><br>
+                  <span class="para-break">Dont not stand on jagged rocks on ground. If targeted, move so that "Glass Shards are away from boss.</span><br>
+                  <span class="para-break">Dispel "Sinlight Visions" and dodge "Refracted Sinlight" (rotating laser beam)</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Echelon dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Echelon</h3>
+                <p class="boss-para">In order to spawn this boss, the tank will need to open the door at the top of the stairs.<br>
+                  Play style: <br>
+                  <span class="para-break">Move away from red pools on ground.</span><br>
+                  <span class="para-break">Tank needs to gather adds. Kill each one by one as they explode for group damage.</span><br>
+                  <span class="para-break">try to kill adds on top of each other as best as possible.</span><br>
+                  <span class="para-break">If cursed with "Stone Shattering Leap", move to dead adds so boss destroys them to 
+                    prevent ressurecting</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="High Adjudicator Aleez dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">High Adjudicator Aleez</h3>
+                <p class="boss-para">The High Adjudicator, Aleez, is a shadow wrathe that is simple to kill, but spawna a adds that 
+                  can easily kill group members.<br>
+                  Play style: <br>
+                  <span class="para-break">Always interrupt "Volley of Power" and interuppt "Bolt of Power" when possible.</span><br>
+                  <span class="para-break">if targeted by add, run it to a red vessel in the area. Player can stop add by looking at it.</span><br>
+                  <span class="para-break">If not targeted by add, stay away to avoid taking damage.</span><br>
+                  <span class="para-break">Dodge big red swirlies on ground.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Lord Chamberlain dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Lord Chamberlain</h3>
+                <p class="boss-para">A vampire lord, Chamberlain has a number of AOE abilities that healers need to heals the group up from.<br>
+                  Play style: <br>
+                  <span class="para-break">Dodge statues that the boss throws, pushes and pulls.</span><br>
+                  <span class="para-break">Dodge the frontal cone attack cast in random direction.</span><br>
+                  <span class="para-break">Tank needs to absorb "Ritual of Woe" by standing between boss and red glowing statue.</span><br>
+                  <span class="para-break">"Stigma of Pride" does massive damage to tank, focus healing on tank during this DOT.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- Spires of Ascension -->
+        <div id="spires" class="dungeon-info char-info-section">
+          <div class="dungeon-top">
+            <h2 class="title">Spires of Ascension</h2>
+            <div class="top-div">
+              <p class="top-para">Spires of Ascension, also know as the heaven dungeon, is one of the four max level dungeons that drop good 
+                gear and has some unque bosses. Over all, this dungeon is simple to beat, but mechanics need to be followed. </p>
+                <iframe class="player"
+                src="https://www.youtube.com/embed/vb7ryFpwJrk?controls=0">
+              </iframe>
+            </div>
+          </div>
+          <div class="dungeon-map">
+            <h2 class="title">Dungeon Map</h2>
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/spires_map.jpg" alt="Map of the Spires of Ascension Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/spires_map2.jpg" alt="Second map of the Spires of Ascension Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/spires_map3.jpg" alt="Third map of the Spires of Ascension Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/spires_map4.jpg" alt="Fourth map of the Spires of Ascension Dungeon">
+            <h2 class="title">Dungeon Bosses</h2>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Kin-Tara dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Kin-Tara</h3>
+                <p class="boss-para">The first boss of Spires is Kin-Tara, a survival hunter that utilizes her pet to attach and wings to fly. 
+                  You will need to clear all mobs around her to prevent them aggroing during the fight.<br>
+                  Play style:<br>
+                  <span class="para-break">Tank needs to face her away fron group to prevent AOE damage from "Sweeping Strike".</span><br>
+                  <span class="para-break">DPS and Heals need to dodge "Attenuated Barrage" from pet.</span><br>
+                  <span class="para-break">Interrupt "Dark Lance" when ever possible to avoid DOT and move away fron "Charged Spear".</span><br>
+                  <span class="para-break">Both Kin-Tara and her pet need to die at same time to avoid boss bonus damage ability.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Ventunax dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Ventunax</h3>
+                <p class="boss-para">The second boss in Spires is Ventunax. This boss has multiple AOE attacks tht need to be dodged.<br>
+                  Play style: <br>
+                  <span class="para-break">Tank needs to face boss away fron group and dodge front cone attack.</span><br>
+                  <span class="para-break">Dodge dark swirlies on ground and dark bolts that come out of them.</span><br>
+                  <span class="para-break">Boss will summon more dark bolts during "Reabsorb Anima".</span><br></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Oryphrion dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Oryphrion</h3>
+                <p class="boss-para">Oryphrion is a large robot boss within Spires of Ascension dungeon. This boss requires that 
+                  he recharge his batteries, which during that time, damage is doubled. So, save cooldowns for this phase.<br>
+                  Play style: <br>
+                  <span class="para-break">Stay at least 8 yards apart to prevent Group AOE damage.</span><br>
+                  <span class="para-break">Dispel tank when hit with "Charged Stomp" and move away from boss.</span><br>
+                  <span class="para-break">When you get blue circle around feet, move far from boss to drop, run away after.</span><br>
+                  <span class="para-break">Keep boss out of blue circles. When blue circles turn to orbs, players need to soak them.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Devos paragon of doubt dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Devos, Paragon of Doubt</h3>
+                <p class="boss-para">The final boss in Spires is Devos, a winged guardian. This boss should be tanked near the edge of platform.<br>
+                  Play style: <br>
+                  <span class="para-break">Everyone needs to dodge "Run Through".</span><br>
+                  <span class="para-break">Run away from dark orb spawned by boss.</span><br>
+                  <span class="para-break">Dispel "Lingering Doubt" and stay out of pool it drops.</span><br>
+                  <span class="para-break">When boss flys in air, collect blue orbs and run them to center statue. Use extra 
+                    action button to shoot </span><span class="para-break">boss down.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!-- Plaguefall -->
+        <div id="plag" class="dungeon-info char-info-section">
+          <div class="dungeon-top">
+            <h2 class="title">Plaguefall</h2>
+            <div class="top-div">
+              <p class="top-para">Plaquefall, another max level dungeon, offers some fun mechanics with lots of DOTs that can easily kill a group 
+                if not properly managed. With many slime mobs and creatures, this dungeon will surely be fun and may bring back some old memories 
+                from Vanilla and Burning Crusade encounters.
+              </p>
+                <iframe class="player"
+                src="https://www.youtube.com/embed/7pTSFY8WXHU?controls=0">
+              </iframe>
+            </div>
+          </div>
+          <div class="dungeon-map">
+            <h2 class="title">Dungeon Map</h2>
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/plag_map.jpg" alt="Map of the Necrotic Wake Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/plag_map2.jpg" alt="Map of the Necrotic Wake Dungeon">
+            <h2 class="title">Dungeon Bosses</h2>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Globgrog dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Globgrog</h3>
+                <p class="boss-para">As the first boss of Plaguefall, this giant green ooze monster has plenty of tricks to kill the group. 
+                  The area near the boss should be fully cleared before pulling to prevent extra mobs from joining in.<br>
+                  Play style:<br>
+                  <span class="para-break">When slime adds spawn, tank boss on opposite side when stunning and killing adds.</span><br>
+                  <span class="para-break">Stay near the boss when possible and dodge "Slime Wave" frontal cone attack.</span><br>
+                  <span class="para-break">Don't get knocked into slime during "Plaguestomp".</span><br>
+                  <span class="para-break">Dispel "Debilitating Plague" as soon as possible.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Doctor Ickus dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Doctor Ickus</h3>
+                <p class="boss-para">The second boss of Plaguefall, Doctor Ickus, is more like a frog that jumps from platform to platform. 
+                  You will need to kill all the mobs on the platforms before pulling boss.<br>
+                  Play style: <br>
+                  <span class="para-break">Dispel "Slime Injection" from tank and kill adds that spawn.</span><br>
+                  <span class="para-break">Always dodge "Slime Lunge".</span><br>
+                  <span class="para-break">When boss jumps platforms, follow and kill bomb add asap. Bomb will kill group if it goes off.</span><br>
+                  <span class="para-break">Kill red blobs, keep boss out of red pool, but group needs to stand in it gain a haste boost.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Domina Venomblade dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Domina Venomblade</h3>
+                <p class="boss-para">The third boss of Plaguefall is a large assassin spider that has several spider friends that 
+                  need to be killed, otherwise, they start attack the group.<br>
+                  Play style: <br>
+                  <span class="para-break">Dispel or remove "Cytotoxic Slash" from tank.</span><br>
+                  <span class="para-break">If you get "Shadow Ambush", a large purple circle around feet, run away from group.</span><br>
+                  <span class="para-break">When webs spawn, players need to run to different webs to pull stealthed add. Run 
+                    them to tank and AOE </span><span class="para-break">down.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Margrave Stradama dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Margrave Stradama</h3>
+                <p class="boss-para">Margrave is the final boss of Plaguefall and is a water creature that spawns fromt he pool in 
+                  the center of the room. Everyone needs to stay out of pool to prevent damage.<br>
+                  Play style: <br>
+                  <span class="para-break">Kill adds spawned by boss near the center pool, tank needs to soak pool dropped by add to 
+                    prevent group </span><span class="para-break">wide damage.</span><br>
+                  <span class="para-break">Dodge the tenticles that spawn from the center pool by running to the gaps.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!-- De Other Side -->
+        <div id="side" class="dungeon-info char-info-section">
+          <div class="dungeon-top">
+            <h2 class="title">De Other Side</h2>
+            <div class="top-div">
+              <p class="top-para">As one of the max level dungeons, De other Side has some serious fun encounters, to include 
+                yet another fight with the infamous Millhouse Manstorm, and of course, his girl Millificent. The first three bosses 
+                can be fought in any other.</p>
+                <iframe class="player"
+                src="https://www.youtube.com/embed/VsecBHaEo44?controls=0">
+              </iframe>
+            </div>
+          </div>
+          <div class="dungeon-map">
+            <h2 class="title">Dungeon Map</h2>
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/de_map.jpg" alt="Map of the De Other Side Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/de_map2.jpg" alt="Second map of the De Other Side Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/de_map3.jpg" alt="Third map of the De Other Side Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/de_map4.jpg" alt="Fourth map of the De Other Side Dungeon">
+            <h2 class="title">Dungeon Bosses</h2>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Hakkar the Soulflayer dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Hakkar the Soulflayer</h3>
+                <p class="boss-para">As one of the first bosses in De Other Side, Hakkar, a giant serpant creature, provides a strong fight 
+                  that gets worse as the fight goes one, so kill him fast.<br>
+                  Play style:<br>
+                  <span class="para-break">Run from group if you get "Corrupted Blood", a red circle around feet.</span><br>
+                  <span class="para-break">Kill adds as fast as possible and avoid red pools that drop.</span><br>
+                  <span class="para-break">At full energy, Hakkar will gain a shield. Break shield and interupt boss before cast goes off.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Manastorms dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Manastorms</h3>
+                <p class="boss-para">The infamous couple, the Manastorms, are a tag team boss in which only one is attackable at a time 
+                  and each have different abilities.<br>
+                  Play style: <br>
+                  <span class="para-break">Start by attacking Millhouse as Millificent will jump to her platform.</span><br>
+                  <span class="para-break">Interrupt Frostbolt and intercept purple beams to gain buff, but only hold for 15 secs max.</span><br>
+                  <span class="para-break">Millhouse and Millificent will swap places every 30 secs.</span><br>
+                  <span class="para-break">When bombs are dropped, dps need to run to bombs to defuse, otherwise group takes massive damage.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Delaer Xy'exa dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Dealer Xy'exa</h3>
+                <p class="boss-para">Dealer Xy'exa is one of the first three bosses within De Othe Side and this boss has some 
+                  unique mechanics that require all members to follow otherwise, it'll be an easy wipe.<br>
+                  Play style: <br>
+                  <span class="para-break">Avoid white lazers while not stepping into swirly white traps.</span><br>
+                  <span class="para-break">If targeted with bomb, jump onto swirly white trap just before bomb goes off to avoid group wide </span><span class="para-break">damage.</span><br>
+                  <span class="para-break">If boss casts bomb on themself, all members need to jump on white swirly trap near end of timer.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Mueh'zala dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Mueh'zala</h3>
+                <p class="boss-para">As the final boss of De Other Side, this boss is a giant that has serious damaging power. Luckely, 
+                  when you kill the, they do serious damage to the boss, and the fight ends at 10% <br>
+                  Play style: <br>
+                  <span class="para-break">BEFORE THE BOSS PULL, decide which TWO dps goes to left portal while others go to right.</span><br>
+                  <span class="para-break">Tank needs to always be in melee when boss isn't casting.</span><br>
+                  <span class="para-break">Dispel ONE debuff from group when applied and avoid purple circles on ground.</span><br>
+                  <span class="para-break">Watch boss and dodge strike when he casts "Master of Death".</span><br>
+                  <span class="para-break">When boss casts "Shatter Reality", run to your portal, click, and quickly kill add on other side.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!-- Sanguine Depths -->
+        <div id="sang" class="dungeon-info char-info-section">
+          <div class="dungeon-top">
+            <h2 class="title">Sanguine Depths</h2>
+            <div class="top-div">
+              <p class="top-para">As the last of the max level dungeons, this one offers some more simple to fight bosses that should be good 
+                for farming gear. There are mechanics that need to be followed, but all are very simple so long as you are watching the boss.</p>
+                <iframe class="player"
+                src="https://www.youtube.com/embed/vuGQnAXsel0?controls=0">
+              </iframe>
+            </div>
+          </div>
+          <div class="dungeon-map">
+            <h2 class="title">Dungeon Map</h2>
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/seg_map.jpg" alt="Map of the Seguine Depths Wake Dungeon">
+            <img class="dungeon-map-img" src="../images/shadowlands_dungeons_images/seg_map2.jpg" alt="Map of the Seguine Depths Wake Dungeon">
+            <h2 class="title">Dungeon Bosses</h2>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Kryxis dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Kryxis the Voracious</h3>
+                <p class="boss-para">The first boss of Sanguine Depths is a large rock monster named Kryxis that loves to do slams. DPS and 
+                  Healer need to stay to the back of the boss.<br>
+                  Play style:<br>
+                  <span class="para-break">DO NOT Tank boss facing the edge as he will do a "Vicious Headbutt" knocking all players backward.</span><br>
+                  <span class="para-break">Interrupt "Hungering Drain" and dodge "Juggernaut Rush".</span><br>
+                  <span class="para-break">When boss casts "Severing Smash, everyone run from boss, collect blacks that spawn afterward.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Executor Tarvold dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Executor Tarvold</h3>
+                <p class="boss-para">The second boss, Tarvold, is your normal everyday executioner. The only eral difference is the amount of damage he does.<br>
+                  Play style: <br>
+                  <span class="para-break">Stay spread out as much as possible.</span><br>
+                  <span class="para-break">If targeted by "Castigate, a large red circle, move it away from all other players.</span><br>
+                  <span class="para-break">Kill adds when spawned as fast as possible to reduce pool drop size.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="Grand Protor Beryllia dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">Grand Proctor Beryllia</h3>
+                <p class="boss-para">Grand Proctor is a Grimm Reaper looking boss with only a couple abilities. but those abilities can hit 
+                  very hard if not dodged.<br>
+                  Play style: <br>
+                  <span class="para-break">Avoid yellow swirlies as they do large amounts of damage.</span><br>
+                  <span class="para-break">When boss casts "Rite of Supremacy", move to yellow circle to avoid blast damage and DOT.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="dungeon-bosses">
+            <div class="boss-div">
+              <img class="boss-img" src="../images/shadowlands_dungeons_images/no_image.png" alt="General Kaal dungeon boss image">
+              <div class="boss-info">
+                <h3 class="boss-title">General Kaal</h3>
+                <p class="boss-para">The last boss of Sanguine Depths is Kaal, a gargoyal / vampire mix looking creature with multipl AOE abilities. 
+                  This boss has a ton of health, but luckily, the fight ends when boss hits 50% HP. Also, one player, preferably the tank or healer, needs 
+                  to pick up the Naaru relic before pulling the boss.<br>
+                  Play style: <br>
+                  <span class="para-break">Stay spread out while fighting at least 8 yards to avoid Mass group damage from "Wicked Gash". </span><br>
+                  <span class="para-break">Move away from large red laser that spawns and hits a section of platform.</span><br>
+                  <span class="para-break">When boss casts "Gloom Squall", play with Naaru relic needs to push extra action button to drop 
+                    shield. </span><span class="para-break">Everyone needs to run to shield to prevent taking massive damage and possibly getting 
+                    blown off </span><span class="para-break">platform.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="footer-div">
+        <div class="footer-div-section">
+          <h4 class="footer-txt">2020 | FRANCIS WEB DEVELOPMENT US</h4>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../js/selector.js"></script>
+    <!-- search script from javascriptkit-->
+    <script>
+      var domainroot="www.javascriptkit.com"
+      var searchaction=[
+      "http://www.google.com/search"
+      ]
+      var queryfieldname=["q","p","q"]
+      function switchaction(cur, index){
+      cur.form.action=searchaction[index]
+      document.getElementById("hiddenquery").name=queryfieldname[index]
+      }
+      function jksitesearch(curobj){
+      for (i=0; i< document.jksearch.se.length; i++){
+      if (document.jksearch.se[i].checked==true)
+      switchaction(document.jksearch.se[i], i)
+      }
+      document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+      }
+      </script>
+  </body>
+</html>

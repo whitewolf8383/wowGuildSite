@@ -1,0 +1,153 @@
+/* styles for overview page */
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(256, 256, 256);
+}
+.top-div{
+    background-image: url(../images/shadowlands_overview_images/overview-bk.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom center;
+    background-size: cover;
+    height: 659px;
+    color: rgb(256, 256, 256);
+}
+.top-div-section{
+    text-align: center;
+}
+.top-title{
+    font-family: "Neuton";
+    font-size: 60px;
+    letter-spacing: 15px;
+    padding: 90px 0 30px 0;
+}
+.player{
+    height: 300px;
+    width: 550px;
+}
+.startup-sec{
+    background-color: rgb(0,0,0);
+    height: 420px;
+    text-align: center;
+}
+.sec-title{
+    font-family: "Neuton";
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.sec-para{
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 175%;
+    text-align: left;
+    width: 615px;
+}
+.sec-img{
+    display: inline-block;
+    height: 225px;
+    padding: 0 15px;
+    vertical-align: top;
+    width: 400px;
+}
+.zones-sec{
+    background-color: rgb(106,103,130);
+    height: 420px;
+    text-align: center;
+}
+.coven-sec{
+    background-color: rgb(0,0,0);
+    height: 420px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1120px){
+    .top-title{
+        font-size: 50px;
+        padding: 30px 0 30px 0;
+    }
+    .startup-sec{
+        height: 600px;
+        text-align: center;
+    }
+    .sec-title{
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+    .sec-para{
+        font-size: 18px;
+        width: 615px;
+    }
+    .sec-img{
+        padding: 15px 15px;
+    }
+    .zones-sec{
+        height: 600px;
+    }
+    .coven-sec{
+        height: 600px;
+    }
+}
+  
+@media screen and (max-width: 800px){
+    .top-title{
+        font-size: 45px;
+        letter-spacing: 15px;
+        padding: 20px 0 30px 0;
+    }
+    .startup-sec{
+        height: 675px;
+    }
+    .sec-title{
+        font-size: 40px;
+    }
+    .sec-para{
+        font-size: 18px;
+        width: 500px;
+    }
+    .sec-img{
+        height: 225px;
+        padding: 10px 15px;
+        width: 400px;
+    }
+    .zones-sec{
+        height: 675px;
+    }
+    .coven-sec{
+        height: 675px;
+    }
+}
+  
+@media screen and (max-width: 601px){
+    .top-title{
+        font-size: 40px;
+        padding: 10px 0 30px 0;
+    }
+    .player{
+        height: 250px;
+        width: 450px;
+    }
+    .startup-sec{
+        height: 600px;
+    }
+    .sec-title{
+        font-size: 35px;
+        letter-spacing: 15px;
+    }
+    .sec-para{
+        font-size: 16px;
+        width: 475px;
+    }
+    .sec-img{
+        height: auto;
+        padding: 10px 15px;
+        width: 300px;
+    }
+    .zones-sec{
+        height: 600px;
+    }
+    .coven-sec{
+        height: 600px;
+    }
+}

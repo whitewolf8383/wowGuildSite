@@ -1,0 +1,520 @@
+
+  .officer_heading_section{
+    background-image: url(../images/guild_officers_images/officer_heading_bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+  }
+
+  /* Main Content */
+  .officer-heading-div{
+    color: rgb(255,255,255);
+    text-align: center;
+  }
+  .officer-heading-div-section{
+    display: block;
+    width: 1160px;
+    margin: auto;
+    position: static;
+  }
+  .officer-heading{
+    font-family: Neuton;
+    font-size: 80px;
+    font-weight: normal;
+    letter-spacing: 15px;
+    margin-top: 110px;
+    margin-bottom: 30px;
+  }
+  .officer-para{
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 175%;
+    text-align: left;
+    width: 725px;
+    margin: auto;
+  }
+
+  /* Officer Pages Section */
+  .officer_pages{
+    background-color: rgb(0,0,0);
+    height: 1200px;
+    text-align: center;
+  }
+  .officer_pages_section{
+    display: block;
+    width: 1160px;
+    margin: auto;
+    position: static;
+  }
+  .info_container{
+    width: 545px;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .info_container_img{
+    height: 400px;
+    width: 275px;
+    border-radius: 15px;
+  }
+  .info_container_name{
+    font-family: Playball;
+    font-size: 80px;
+    font-weight: normal;
+    margin-top: -20px;
+    color: rgb(255,255,255);
+  }
+  .info_container_title{
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: rgb(255,255,255);
+  }
+  .info_container_para{
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 175%;
+    margin-bottom: 20px;
+    color: rgb(255,255,255);
+  }
+  .learn_btn{
+    border-color: rgb(255,255,255);
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: transparent;
+  }
+  .learn_btn_txt{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .dark_div{
+    background-color: rgb(0,0,0, 0.3);
+  }
+  /* 3D cube controls */
+  .cube_control_group{
+    color: rgb(255,255,255);
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 20px 20px;
+  }
+  /* 3D cube pages */
+  .scene {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    perspective: 5000px;
+  }
+  .cube {
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-100px);
+    transition: transform 1s;
+  }
+  .cube.show-front  { 
+    transform: translateZ(-500px) rotateY( 0deg); 
+  }
+  .cube.show-right  { 
+    transform: translateZ(-500px) rotateY( -90deg); 
+  }
+  .cube.show-back   { 
+    transform: translateZ(-500px) rotateY( -180deg); 
+  }
+  .cube.show-left   { 
+    transform: translateZ(-500px) rotateY( 90deg); 
+  }
+  .cube.show-top    { 
+    transform: translateZ(-500px) rotateX( -90deg); 
+  }
+  .cube.show-bottom { 
+    transform: translateZ(-500px) rotateX( 90deg); 
+  }
+  .cube__face {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+  }
+  .cube__face--front  { 
+    background-image: url(../images/guild_officers_images/anna_back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cube__face--right  { 
+    background-image: url(../images/guild_officers_images/sweet_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cube__face--back   { 
+    background-image: url(../images/guild_officers_images/ashel_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cube__face--left   { 
+    background-image: url(../images/guild_officers_images/khoric_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cube__face--top    { 
+    background-image: url(../images/guild_officers_images/poe_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .cube__face--bottom { 
+    background-image: url(../images/guild_officers_images/zol_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .cube__face--front  { 
+    transform: rotateY(  0deg) translateZ(500px); 
+  }
+  .cube__face--right  { 
+    transform: rotateY( 90deg) translateZ(500px); 
+  }
+  .cube__face--back   { 
+    transform: rotateY(180deg) translateZ(500px); 
+  }
+  .cube__face--left   { 
+    transform: rotateY(-90deg) translateZ(500px); 
+  }
+  .cube__face--top    { 
+    transform: rotateX( 90deg) translateZ(500px); 
+  }
+  .cube__face--bottom { 
+    transform: rotateX(-90deg) translateZ(500px); 
+  }
+  label { 
+    margin-right: 10px; 
+  }
+@media screen and (max-width: 1120px){
+  /* Main Content */
+  .officer-heading-div-section{
+    width: 750px;
+  }
+  .officer-heading{
+    font-size: 60px;
+    letter-spacing: 15px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+  .officer-para{
+    font-size: 18px;
+    width: 625px;
+  }
+  /* Officer Pages Section */
+  .officer_pages{
+    height: 1000px;
+  }
+  .officer_pages_section{
+    width: 750px;
+    margin: auto;
+  }
+  .info_container{
+    width: 445px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .info_container_img{
+    height: 250px;
+    width: auto;
+  }
+  .info_container_name{
+    font-size: 55px;
+    margin-top: -8px;
+  }
+  .info_container_title{
+    font-size: 45px;
+    margin-top: -10px;
+  }
+  .info_container_para{
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+  /* 3D cube controls */
+  .cube_control_group{
+    font-size: 20px;
+  }
+
+  /* 3D cube pages */
+  .scene {
+    width: 700px;
+    height: 700px;
+    perspective: 4000px;
+  }
+  .cube {
+    width: 700px;
+    height: 700px;
+  }
+  .cube.show-front  { 
+    transform: translateZ(-350px) rotateY( 0deg); 
+  }
+  .cube.show-right  { 
+    transform: translateZ(-350px) rotateY( -90deg); 
+  }
+  .cube.show-back   { 
+    transform: translateZ(-350px) rotateY( -180deg); 
+  }
+  .cube.show-left   { 
+    transform: translateZ(-350px) rotateY( 90deg); 
+  }
+  .cube.show-top    { 
+    transform: translateZ(-350px) rotateX( -90deg); 
+  }
+  .cube.show-bottom { 
+    transform: translateZ(-350px) rotateX( 90deg); 
+  }
+  .cube__face {
+    width: 700px;
+    height: 700px;
+  }
+  .cube__face--front  { 
+    transform: rotateY(  0deg) translateZ(350px); 
+  }
+  .cube__face--right  { 
+    transform: rotateY( 90deg) translateZ(350px); 
+  }
+  .cube__face--back   { 
+    transform: rotateY(180deg) translateZ(350px); 
+  }
+  .cube__face--left   { 
+    transform: rotateY(-90deg) translateZ(350px); 
+  }
+  .cube__face--top    { 
+    transform: rotateX( 90deg) translateZ(350px); 
+  }
+  .cube__face--bottom { 
+    transform: rotateX(-90deg) translateZ(350px); 
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 801px){
+  /* Main Content */
+  .officer-heading-div-section{
+    width: 600px;
+  }
+  .officer-heading{
+    font-size: 50px;
+    letter-spacing: 12px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .officer-para{
+    font-size: 16px;
+    width: 480px;
+  }
+  /* Officer Pages Section */
+  .officer_pages{
+    height: 750px;
+  }
+  .officer_pages_section{
+    width: 575px;
+  }
+  .info_container{
+    width: 425px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .info_container_img{
+    height: 200px;
+  }
+  .info_container_name{
+    font-size: 40px;
+    margin-top: -8px;
+  }
+  .info_container_title{
+    font-size: 30px;
+    margin-top: -10px;
+  }
+  .info_container_para{
+    font-size: 14px;
+  }
+  .learn_btn{
+    padding: 8px 15px;
+  }
+  .learn_btn_txt{
+    font-size: 12px;
+  }
+  /* 3D cube controls */
+  .cube_control_group{
+    font-size: 18px;
+  }
+
+  /* 3D cube pages */
+  .scene {
+    width: 550px;
+    height: 550px;
+    perspective: 3000px;
+  }
+  .cube {
+    width: 550px;
+    height: 550px;
+  }
+  .cube.show-front  { 
+    transform: translateZ(-275px) rotateY( 0deg); 
+  }
+  .cube.show-right  { 
+    transform: translateZ(-275px) rotateY( -90deg); 
+  }
+  .cube.show-back   { 
+    transform: translateZ(-275px) rotateY( -180deg); 
+  }
+  .cube.show-left   { 
+    transform: translateZ(-275px) rotateY( 90deg); 
+  }
+  .cube.show-top    { 
+    transform: translateZ(-275px) rotateX( -90deg); 
+  }
+  .cube.show-bottom { 
+    transform: translateZ(-275px) rotateX( 90deg); 
+  }
+  .cube__face {
+    width: 550px;
+    height: 550px;
+  }
+  .cube__face--front  { 
+    transform: rotateY(  0deg) translateZ(275px); 
+  }
+  .cube__face--right  { 
+    transform: rotateY( 90deg) translateZ(275px); 
+  }
+  .cube__face--back   { 
+    transform: rotateY(180deg) translateZ(275px); 
+  }
+  .cube__face--left   { 
+    transform: rotateY(-90deg) translateZ(275px); 
+  }
+  .cube__face--top    { 
+    transform: rotateX( 90deg) translateZ(275px); 
+  }
+  .cube__face--bottom { 
+    transform: rotateX(-90deg) translateZ(275px); 
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 601px){
+  /* Main Content */
+  .officer-heading-div-section{
+    width: 400px;
+  }
+  .officer-heading{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-top: 40px;
+  }
+  .officer-para{
+    width: 350px;
+  }
+  /* Officer Pages Section */
+  .officer_pages{
+    height: 600px;
+  }
+  .officer_pages_section{
+    width: 400px;
+  }
+  .info_container{
+    width: 375px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .info_container_img{
+    display: none;
+  }
+  .info_container_name{
+    font-size: 40px;
+    margin-top: -8px;
+  }
+  .info_container_title{
+    font-size: 30px;
+    margin-top: -10px;
+  }
+  .info_container_para{
+    font-size: 14px;
+  }
+  .learn_btn{
+    padding: 8px 15px;
+  }
+  .learn_btn_txt{
+    font-size: 12px;
+  }
+  /* 3D cube controls */
+  .cube_control_group{
+    font-size: 12px;
+  }
+
+  /* 3D cube pages */
+  .scene {
+    width: 400px;
+    height: 400px;
+    perspective: 2500px;
+  }
+  .cube {
+    width: 400px;
+    height: 400px;
+  }
+  .cube.show-front  { 
+    transform: translateZ(-200px) rotateY( 0deg); 
+  }
+  .cube.show-right  { 
+    transform: translateZ(-200px) rotateY( -90deg); 
+  }
+  .cube.show-back   { 
+    transform: translateZ(-200px) rotateY( -180deg); 
+  }
+  .cube.show-left   { 
+    transform: translateZ(-200px) rotateY( 90deg); 
+  }
+  .cube.show-top    { 
+    transform: translateZ(-200px) rotateX( -90deg); 
+  }
+  .cube.show-bottom { 
+    transform: translateZ(-200px) rotateX( 90deg); 
+  }
+  .cube__face {
+    width: 400px;
+    height: 400px;
+  }
+  .cube__face--front  { 
+    transform: rotateY(  0deg) translateZ(200px); 
+  }
+  .cube__face--right  { 
+    transform: rotateY( 90deg) translateZ(200px); 
+  }
+  .cube__face--back   { 
+    transform: rotateY(180deg) translateZ(200px); 
+  }
+  .cube__face--left   { 
+    transform: rotateY(-90deg) translateZ(200px); 
+  }
+  .cube__face--top    { 
+    transform: rotateX( 90deg) translateZ(200px); 
+  }
+  .cube__face--bottom { 
+    transform: rotateX(-90deg) translateZ(200px); 
+  }
+}

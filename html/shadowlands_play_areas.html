@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175533281-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-175533281-1');
+    </script>
+    <meta name="google-site-verification" content="zdMvvuaxZy1-XIzmChsjcMDyT1sd_tzYa_ZDjeAsVnU" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Keith J Francis">
+    <meta name="description" content="This page within the Doodles-Whisperwinds website provides information about the new playing zones found in Shadowlands expansion to include maps and images of creatures.">
+    <meta name="keywords" content="doodles, whisperwind, teaching guild, world of warcraft, wow">
+    <title>Shadowlands Zones</title>
+    
+    <!-- script styles  from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Neuton&family=Playball&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Link section -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/nav_footer_styles.css">
+    <link rel="stylesheet" href="../css/shadowlands_play_areas_styles.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="top-div">
+        <div class="nav-bar">
+          <div class="nav-bar-section">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a href="index.html">
+                <img class="nav-bar-img" src="../images/guild_landing_page_images/black_dragon_head.png" alt="black dragons head">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a href="guild_intro_page.html" class="nav-bar-section-link">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="guild_officers.html" class="nav-bar-section-link">OFFICERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="character_builds.html" class="nav-bar-section-link">CHARACTERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="corruption_system_overview.html" class="nav-bar-section-link">CORRUPTION SYSTEM</a>
+                  </li>
+                  <!-- drop down menu-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: white; font-family: Roboto; font-weight: 500; font-size: 18px; letter-spacing: 3px; padding: 0 5px 0 5px;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      SHADOWLANDS
+                    </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="shadowlands_overview.html">OVERVIEW</a>
+                        <a class="dropdown-item" href="shadowlands_play_areas.html">QUESTING AREAS</a>
+                        <a class="dropdown-item" href="covenant_details.html">COVENANTS</a>
+                        <a class="dropdown-item" href="shadowlands_dungeons.html">DUNGEONS</a>
+                      </div>
+                  </li>
+                </ul>
+                  <!-- Search Box-->
+                  <form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+                    <input id="hiddenquery" type="hidden" name="q" />
+                    <input name="qfront" type="text" class="nav-bar-search-box" placeholder=" Search"/> 
+                    <input type="submit" style="display: none"/>
+                    <div style="display: none;">
+                      Google:<input name="se">
+                    </div>
+                  </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <article>
+          <div class="intro-div">
+            <h1 class="intro-sec title">Shadowlands Zones</h1>
+            <p class="intro-para">Once a soul leaves the world of the living, they must journey here, Oribos, an ancient city built in the 
+              middle of Shadowlands. This is where all souls will be judged and sent to their respective afterlives. As 
+              adventurers, this too will be your entrence into the Shadowlands. Yet, because you are not dead, you will be 
+              able to journey through all the realms as you complete quests and fight your way to level 60.</p>
+          </div>
+        </article>
+      </div>
+    </header>
+
+    <article class="zone_pages">
+      <div class="zone_pages_section">
+        <div class="selector">
+          <button class="icon selector-title" onclick="openSection(event, 'arden')">
+            Ardenweald
+            <img class="sel-img" src="../images/shadowlands_play_areas_images/arden-sel-img.png" alt="Image From Ardenweald">
+          </button>
+        </div>    
+        <div class="selector">
+          <button class="icon selector-title" onclick="openSection(event, 'bastion')">
+            Bastion <br>
+            <img class="sel-img" src="../images/shadowlands_play_areas_images/bas-sel-img.png" alt="Image From Bastion">
+          </button>
+        </div>    
+        <div class="selector">
+          <button class="icon selector-title" onclick="openSection(event, 'mald')">
+            Maldraxxus
+            <img class="sel-img" src="../images/shadowlands_play_areas_images/mal-sel-img.png" alt="Image From Maldraxxus">
+          </button>
+        </div>    
+        <div class="selector">
+          <button class="icon selector-title" onclick="openSection(event, 'reven')">
+            Revendreth
+            <img class="sel-img" src="../images/shadowlands_play_areas_images/reven-sel-img.png" alt="Image From Revendreth">
+          </button>
+        </div>    
+        <div class="selector">
+          <button class="icon selector-title" onclick="openSection(event, 'maw')">
+            The Maw
+            <img class="sel-img" src="../images/shadowlands_play_areas_images/maw-sel-img.png" alt="Image From Maw">
+          </button>
+        </div>
+        <div id="arden" class="char-info-section">
+          <div class="zones-info">
+            <h1 class="title zone-title">Ardenweald</h1>
+            <div class="zone-div">
+              <p class="zones-para">A mysterious and enchanted forest, ruled by the Night Fae, Ardenweald is home to souls who 
+                dedicated their lives to nature and whos job it is to collect anima, infusing their lives with 
+                spirits and old knowledge to prepair for reentry into the world of the living.</p>
+              <img class="zones-img" src="../images/shadowlands_play_areas_images/arden-img.png" alt="Image from Ardenweald">
+            </div>
+          </div>
+          <h2 class="title zone-title">Creature Types</h2>
+          <div class="creatures">
+            <div class="creatures-div">
+              <img class="creature-img" src="../images/shadowlands_play_areas_images/faeries-img.png" alt="Image of Faeries">
+              <h3 class="creatures-title">Faeries</h3>
+              <p class="creatures-para">Faeries are the tricksters of the forest who use song to soothe away pain and lure lesser creatures 
+                in to be captured and ground into poultices. Use caution as they are easily offended.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/vorkai-img.png" alt="Image of Vorkai">
+              <h3 class="creatures-title">Vorkai</h3>
+              <p class="creatures-para">As the gurdians of Ardenweald and part of Queen Wild Hunt’s forces, these protectors guard against 
+                any who would try to disrupt the balance of anima.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/sylvar-img.png" alt="Image of Sylvar">
+              <h3 class="creatures-title">Sylvar</h3>
+              <p class="creatures-para">Crafters of tools and magical objects, Sylvar are loyal and polite creatures whos job is to 
+                maintain the ebb and flow of existence.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/tirnenn-img.png" alt="Image of Tirnenn">
+              <h3 class="creatures-title">Tirnenn</h3>
+              <p class="creatures-para">As the eldests of the Fae court, these generally friendly creatures are calm and patient, but 
+                dangerous in battle and capable of terraforming the land around them in an instant</p>
+            </div>
+          </div>
+          <div>
+            <img class="zone-map" src="../images/shadowlands_play_areas_images/arden-map.jpg" alt="Map of Ardenweald">
+          </div>
+        </div>
+        <div id="bastion" class="char-info-section">
+          <div class="zones-info">
+            <h1 class="title zone-title">Bastion</h1>
+            <div class="zone-div">
+              <p class="zones-para">A vast land of gleaming spires and sweeping vistas, ruled by the Kyrians, Bastion is home to 
+                those who spent their life in service to others. It's pristine crystalline skies are welcoming to all who see it 
+                and the Kyrians use this land to usher in the souls from the land of the living.</p>
+              <img class="zones-img" src="../images/shadowlands_play_areas_images/bastion-img.jpg" alt="Image from Bastion">
+            </div>
+          </div>
+          <h2 class="title zone-title">Creature Types</h2>
+          <div class="creatures">
+            <div class="creatures-div">
+              <img class="creature-img" src="../images/shadowlands_play_areas_images/cloudrunner-img.jpg" alt="Image of cloudrunner">
+              <h3 class="creatures-title">Cloudrunner</h3>
+              <p class="creatures-para">Cloudrunners are mighty unicorns whos speed and endurance can't be matched. They are 
+                capable of shooting bursts of anima from their horns.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/wrym-img.jpg" alt="Image of Etherwyrm">
+              <h3 class="creatures-title">Etherwyrm</h3>
+              <p class="creatures-para">Etherwyrms are wind serpent-like creatures who are drawn to streams od anima for feeding.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/larion-img.png" alt="Image of Larion">
+              <h3 class="creatures-title">Larion</h3>
+              <p class="creatures-para">Lion-like creatures, larions are very territorial and will attack anyone that comes 
+                onto their property. They attack with large claws and teeth.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/vulpine-img.jpg" alt="Image of Vulpin">
+              <h3 class="creatures-title">Vulpin</h3>
+              <p class="creatures-para">Vulpin are fox-like creatures that are capable of employing stealth, reinforcing their fur, 
+                and increaseing speed when using anima.
+              </p>
+            </div>
+          </div>
+          <div>
+            <img class="zone-map" src="../images/shadowlands_play_areas_images/bastion-map.jpg" alt="Map of Ardenweald">
+          </div>
+        </div>
+        <div id="mald" class="char-info-section">
+          <div class="zones-info">
+            <h1 class="title zone-title">Maldraxxus</h1>
+            <div class="zone-div">
+              <p class="zones-para">A war-torn land, governed by the necrolords and home to the necromancers and abomination. 
+                The is the place where souls fight to see who is the stronest, raging against the enemies of death to see who will 
+                become the champions and gain great power, who will be torn down and turned in fuel to create weapons.</p>
+              <img class="zones-img" src="../images/shadowlands_play_areas_images/mald-img.jpg" alt="Image from Maldraxxus">
+            </div>
+          </div>
+          <h2 class="title zone-title">Creature Types</h2>
+          <div class="creatures">
+            <div class="creatures-div">
+              <img class="creature-img" src="../images/shadowlands_play_areas_images/glad-img.jpg" alt="Image of Gladiator">
+              <h3 class="creatures-title">Gladiators</h3>
+              <p class="creatures-para">These champions of the House of the Chosen are tireless warriors, always training 
+                with their runic weapons and looking for their next battle.
+              </p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/remn-img.jpg" alt="Image of Remnant">
+              <h3 class="creatures-title">Plague House Remnant</h3>
+              <p class="creatures-para">Mindless animated creatures, these failed experiments roam the grounds of Maldraxxus 
+                looking to feed on poor souls who think they have found a safe place to rest.
+              </p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/soul-img.jpg" alt="Image of Soul-Rotted Flesh">
+              <h3 class="creatures-title">Soul-Rotted Flesh</h3>
+              <p class="creatures-para">Monolithic guardians of Maldraxxus, these Amalgamations of fallen soldiers patrol the 
+                grounds of Maldraxxus looking for enemies to crush.
+              </p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/aran-img.jpg" alt="Image of Aranakk">
+              <h3 class="creatures-title">Aranakk</h3>
+              <p class="creatures-para">The defeated assassins and scouts of the House of Eyes, these nomads retains many secrets, 
+                ones they are willing to share, for a price.
+              </p>
+            </div>
+          </div>
+          <div class="zone-map">
+            <img class="zone-map" src="../images/shadowlands_play_areas_images/mald-map.jpg" alt="Map of Maldraxxus">
+          </div>
+        </div>
+        <div id="reven" class="char-info-section">
+          <div class="zones-info">
+            <h1 class="title zone-title">Revendreth</h1>
+            <div class="zone-div">
+              <p class="zones-para">In this land of gothic inspired spires and dark secrets, the vampiric Venthyr are the formost 
+                experts in the torture and discipline of souls. Afterall, this is the land where those who only served themselves 
+                are sent to be redeemed. Though vicious in their work, the Venthyr also seek the pleasures and comforts of high society.</p>
+              <img class="zones-img" src="../images/shadowlands_play_areas_images/reven-img.jpg" alt="Image from Revendreth">
+            </div>
+          </div>
+          <h2 class="title zone-title">Creature Types</h2>
+          <div class="creatures">
+            <div class="creatures-div">
+              <img class="creature-img" src="../images/shadowlands_play_areas_images/stonelegion-img.jpg" alt="Image of Stone Legion">
+              <h3 class="creatures-title">Stone Legion</h3>
+              <p class="creatures-para">Carved by Stonewrights, these creations are infused with anima and forced to serve their masters. 
+                Although, mosthold a sense of infallible loyalty and will fight for their masters.
+              </p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/dredger-img.jpg" alt="Image of Dredger">
+              <h3 class="creatures-title">Dredger</h3>
+              <p class="creatures-para">These servents of Venthyr, born of the primordial muck, hold a can-do, will-do mentality 
+                and a soul focus of appeasing their masters, even if that means scrificing themselves for entertainment.
+              </p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/stoneborn.png" alt="Image of Stoneborn">
+              <h3 class="creatures-title">Stoneborn</h3>
+              <p class="creatures-para">As members of the Venthyr's army, these gargoyes fight of the enemies of the 
+                Venthyr using martial weapons and enhanced mobility.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/gargon.png" alt="Image of Gargons">
+              <h3 class="creatures-title">Gargons</h3>
+              <p class="creatures-para">These monstrosities are stone creatures, carved into terrifing creatures and prowl 
+                the streets of Revendreth in order to maintain peace through fear or force.</p>
+            </div>
+          </div>
+          <div class="zone-map">
+            <img class="zone-map" src="../images/shadowlands_play_areas_images/reven-map.jpg" alt="Map of Revendreth">
+          </div>
+        </div>
+        <div id="maw" class="char-info-section">
+          <div class="zones-info">
+            <h1 class="title zone-title">The Maw</h1>
+            <div class="zone-div">
+              <p class="zones-para">Home to the most vile and irredeemable souls, this land is ruled by the jailer. All souls deemed 
+                to be a threat to Shadowlands by the Arbiter are cast into this nightmareish hole. However, with the machine of death broken, 
+                all souls are now being poured directly into this hell. 
+              </p>
+              <img class="zones-img" src="../images/shadowlands_play_areas_images/maw-img.jpg" alt="Image from the Maw">
+            </div>
+          </div>
+          <h2 class="title zone-title">Creature Types</h2>
+          <div class="creatures">
+            <div class="creatures-div">
+              <img class="creature-img" src="../images/shadowlands_play_areas_images/mawsworn.jpg" alt="Image of a Mawsworn">
+              <h3 class="creatures-title">Mawsworn</h3>
+              <p class="creatures-para">The minions of the jailer, mawsworn, are enemies to all who step foot into the Maw. 
+                Trained to bring pain and suffering to the most wicked souls.
+              </p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/death-essence.jpg" alt="Image of Death's Essence">
+              <h3 class="creatures-title">death's Essence</h3>
+              <p class="creatures-para">Soul energy trapped within the Maw for untold ages coalesce into malevolent manifestations 
+                that wander the dark reaches of the Maw.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/charred.jpg" alt="Image of a charred behemoth">
+              <h3 class="creatures-title">Charred Behemoth</h3>
+              <p class="creatures-para">These brutish iron-clad creatures crave carnage and use their brawn to pulverize everything 
+                that stands in their way.</p>
+            </div>
+            <div class="creatures-div">
+              <img class="creature-img"  src="../images/shadowlands_play_areas_images/soul-eater.jpg" alt="Image of a Soul Eater">
+              <h3 class="creatures-title">Soul Eater</h3>
+              <p class="creatures-para">Malicious beasts that lurk the Maw, these savage terrors rend their prey with wicked talons, 
+                relishing the screams of their victims before consuming them soul and all.</p>
+            </div>
+          </div>
+          <div class="zone-map">
+            <img class="zone-map" src="../images/shadowlands_play_areas_images/maw-map.jpg" alt="Map of the Maw">
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="footer-div">
+        <div class="footer-div-section">
+          <h4 class="footer-txt">2020 | FRANCIS WEB DEVELOPMENT US</h4>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../js/selector.js"></script>
+    <!-- search script from javascriptkit-->
+    <script>
+      var domainroot="www.javascriptkit.com"
+      var searchaction=[
+      "http://www.google.com/search"
+      ]
+      var queryfieldname=["q","p","q"]
+      function switchaction(cur, index){
+      cur.form.action=searchaction[index]
+      document.getElementById("hiddenquery").name=queryfieldname[index]
+      }
+      function jksitesearch(curobj){
+      for (i=0; i< document.jksearch.se.length; i++){
+      if (document.jksearch.se[i].checked==true)
+      switchaction(document.jksearch.se[i], i)
+      }
+      document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+      }
+      </script>
+  </body>
+</html>

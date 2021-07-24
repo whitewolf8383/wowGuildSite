@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/index.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/shadowlands_play_areas.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/arden-sel-img.png</image:loc>
+        <image:title>Image From Ardenweald</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/bas-sel-img.png</image:loc>
+        <image:title>Image From Bastion</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/mal-sel-img.png</image:loc>
+        <image:title>Image From Maldraxxus</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/reven-sel-img.png</image:loc>
+        <image:title>Image From Revendreth</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/maw-sel-img.png</image:loc>
+        <image:title>Image From Maw</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/arden-img.png</image:loc>
+        <image:title>Image from Ardenweald</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/faeries-img.png</image:loc>
+        <image:title>Image of Faeries</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/vorkai-img.png</image:loc>
+        <image:title>Image of Vorkai</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/sylvar-img.png</image:loc>
+        <image:title>Image of Sylvar</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/tirnenn-img.png</image:loc>
+        <image:title>Image of Tirnenn</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/arden-map.jpg</image:loc>
+        <image:title>Map of Ardenweald</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/bastion-img.jpg</image:loc>
+        <image:title>Image from Bastion</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/cloudrunner-img.jpg</image:loc>
+        <image:title>Image of cloudrunner</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/wrym-img.jpg</image:loc>
+        <image:title>Image of Etherwyrm</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/larion-img.png</image:loc>
+        <image:title>Image of Larion</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/vulpine-img.jpg</image:loc>
+        <image:title>Image of Vulpin</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/bastion-map.jpg</image:loc>
+        <image:title>Map of Ardenweald</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/mald-img.jpg</image:loc>
+        <image:title>Image from Maldraxxus</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/glad-img.jpg</image:loc>
+        <image:title>Image of Gladiator</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/remn-img.jpg</image:loc>
+        <image:title>Image of Remnant</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/soul-img.jpg</image:loc>
+        <image:title>Image of Soul-Rotted Flesh</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/aran-img.jpg</image:loc>
+        <image:title>Image of Aranakk</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/mald-map.jpg</image:loc>
+        <image:title>Map of Maldraxxus</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/reven-img.jpg</image:loc>
+        <image:title>Image from Revendreth</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/stonelegion-img.jpg</image:loc>
+        <image:title>Image of Stone Legion</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/dredger-img.jpg</image:loc>
+        <image:title>Image of Dredger</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/stoneborn.png</image:loc>
+        <image:title>Image of Stoneborn</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/gargon.png</image:loc>
+        <image:title>Image of Gargons</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/reven-map.jpg</image:loc>
+        <image:title>Map of Revendreth</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/maw-img.jpg</image:loc>
+        <image:title>Image from the Maw</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/mawsworn.jpg</image:loc>
+        <image:title>Image of a Mawsworn</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/death-essence.jpg</image:loc>
+        <image:title>Image of Death's Essence</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/charred.jpg</image:loc>
+        <image:title>Image of a charred behemoth</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/soul-eater.jpg</image:loc>
+        <image:title>Image of a Soul Eater</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_play_areas_images/maw-map.jpg</image:loc>
+        <image:title>Map of the Maw</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/guild_intro_page.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/corruption_system_overview.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/avoidant.jpg</image:loc>
+        <image:title>Avoidant Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/deadly_momentum.jpg</image:loc>
+        <image:title>Deadly Momentum Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/echoing_void.jpg</image:loc>
+        <image:title>Echoing Void Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/expedient.jpg</image:loc>
+        <image:title>Expedient Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/glimpse_of_clarity.jpg</image:loc>
+        <image:title>Glimpse of Clarity Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/gushing_wound.jpg</image:loc>
+        <image:title>Gushing Wound Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/honed_mind.jpg</image:loc>
+        <image:title>Honed Mind Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/ineffable_truth.jpg</image:loc>
+        <image:title>Ineffable Truth Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/infinite_stars.jpg</image:loc>
+        <image:title>Infinite Stars Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/masterful.jpg</image:loc>
+        <image:title>Masterful Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/racing_pulse.jpg</image:loc>
+        <image:title>Racing Pulse Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/severe.jpg</image:loc>
+        <image:title>Severe Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/siphoner.jpg</image:loc>
+        <image:title>Siphoner Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/strikethrough.jpg</image:loc>
+        <image:title>Strike Through Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/surging_vitality.jpg</image:loc>
+        <image:title>Surging Vitality Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/twilight_devastation.jpg</image:loc>
+        <image:title>Twilight Devastation Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/twisted_appendage.jpg</image:loc>
+        <image:title>Twisted Appendage Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/versatile.jpg</image:loc>
+        <image:title>Versatile Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/corruption_system_overview_images/corrupt_icon/void_ritual.jpg</image:loc>
+        <image:title>Void Ritual Icon</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/guild_officers.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_officers_images/anna.png</image:loc>
+        <image:title>Annassae's Character</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_officers_images/ashel_temp.jpg</image:loc>
+        <image:title>Ashel's Character</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_officers_images/sweet.png</image:loc>
+        <image:title>Sweatdeaths's Character</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_officers_images/Khoric.png</image:loc>
+        <image:title>Khoric's Character</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_officers_images/poe.png</image:loc>
+        <image:title>Poe's Character</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_officers_images/Zoloff.png</image:loc>
+        <image:title>Zoloff's Character</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/shadowlands_dungeons.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/necro_wake_icon.png</image:loc>
+        <image:title>Icon image of The Necrotic Wake Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/pain_icon.png</image:loc>
+        <image:title>Icon image of Theator of Pain Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/mists_icon.png</image:loc>
+        <image:title>Icon image of Mists of Tirna Scithe Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/halls_icon.png</image:loc>
+        <image:title>Icon image of Halls of Atonement Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/spires_icon.png</image:loc>
+        <image:title>Icon image of Spires of Ascension Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/plag_icon.png</image:loc>
+        <image:title>Icon image of Plaguefall Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/de_other_icon.png</image:loc>
+        <image:title>Icon image of De Other Side Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/sang_icon.png</image:loc>
+        <image:title>Icon image of Sanguine Depths Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/necrotic_wake_map.png</image:loc>
+        <image:title>Map of the Necrotic Wake Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/necrotic_wake_map2.jpg</image:loc>
+        <image:title>Map of the Necrotic Wake Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/necrotic_wake_map3.jpg</image:loc>
+        <image:title>Map of the Necrotic Wake Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/brightbone_boss.png</image:loc>
+        <image:title>Brightbone dungeon boss image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/amarth_boss.png</image:loc>
+        <image:title>Amarth dungeon boss image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/stitchflesh_boss.png</image:loc>
+        <image:title>Surgeon Stitchflesh dungeon boss image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/naithor_boss.png</image:loc>
+        <image:title>Naithor dungeon boss image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/top-map-1.jpg</image:loc>
+        <image:title>Map of Theater of Pain Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/top-map-2.jpg</image:loc>
+        <image:title>Second map of Theater of Pain Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/top-map-3.jpg</image:loc>
+        <image:title>Third map of Theater of Pain Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/mists_of_tirne_map.jpg</image:loc>
+        <image:title>Map of Mist of Tirne Scithe Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/halls_of_atonement_map.jpg</image:loc>
+        <image:title>Map of Halls of Atonement Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/halls_of_atonement_map2.jpg</image:loc>
+        <image:title>Second map of Halls of Atonement Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/halls_of_atonement_map3.jpg</image:loc>
+        <image:title>Third map of Halls of Atonement Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/spires_map.jpg</image:loc>
+        <image:title>Map of the Spires of Ascension Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/spires_map2.jpg</image:loc>
+        <image:title>Second map of the Spires of Ascension Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/spires_map3.jpg</image:loc>
+        <image:title>Third map of the Spires of Ascension Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/spires_map4.jpg</image:loc>
+        <image:title>Fourth map of the Spires of Ascension Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/plag_map.jpg</image:loc>
+        <image:title>Map of the Necrotic Wake Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/plag_map2.jpg</image:loc>
+        <image:title>Map of the Necrotic Wake Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/de_map.jpg</image:loc>
+        <image:title>Map of the De Other Side Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/de_map2.jpg</image:loc>
+        <image:title>Second map of the De Other Side Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/de_map3.jpg</image:loc>
+        <image:title>Third map of the De Other Side Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/de_map4.jpg</image:loc>
+        <image:title>Fourth map of the De Other Side Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/seg_map.jpg</image:loc>
+        <image:title>Map of the Seguine Depths Wake Dungeon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_dungeons_images/seg_map2.jpg</image:loc>
+        <image:title>Map of the Seguine Depths Wake Dungeon</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/covenant_details.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/covenant_details_images/kyrian-img.png</image:loc>
+        <image:title>Image of Kyrian</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/covenant_details_images/necro-img.png</image:loc>
+        <image:title>Image of Necrolord</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/covenant_details_images/fae-img.png</image:loc>
+        <image:title>Image of Night Fae</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/covenant_details_images/venthyr-img.png</image:loc>
+        <image:title>Image of Venthyr</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/death-knight-icon.svg</image:loc>
+        <image:title>Death Knight Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/demon-hunter-icon.svg</image:loc>
+        <image:title>Demon Hunter Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/druid-icon.svg</image:loc>
+        <image:title>Druid Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/hunter-icon.svg</image:loc>
+        <image:title>Hunter Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/mage-icon.svg</image:loc>
+        <image:title>Mage Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/monk-icon.svg</image:loc>
+        <image:title>Monk Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/paladan-icon.svg</image:loc>
+        <image:title>Paladan Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/priest-icon.svg</image:loc>
+        <image:title>Priest Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/rogue-icon.svg</image:loc>
+        <image:title>Rogue Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/shaman-icon.svg</image:loc>
+        <image:title>Shaman Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/warlock-icon.svg</image:loc>
+        <image:title>Warlock Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/warrior-icon.svg</image:loc>
+        <image:title>Warrior Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/dk_icon.jpg</image:loc>
+        <image:title>Death Knight icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/dh_icon.png</image:loc>
+        <image:title>Demon Hunter icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/druid_icon.jpg</image:loc>
+        <image:title>Druid icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/hunter_icon.jpg</image:loc>
+        <image:title>Hunter icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/mage_icon.jpg</image:loc>
+        <image:title>Mage icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/monk_icon.png</image:loc>
+        <image:title>Monk icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/paladin_icon.jpg</image:loc>
+        <image:title>Paladin icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/priest_icon.jpg</image:loc>
+        <image:title>Priest icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/rogue_icon.jpg</image:loc>
+        <image:title>Rogue icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/shaman_icon.jpg</image:loc>
+        <image:title>Shaman icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/warlock_icon.jpg</image:loc>
+        <image:title>Warlock icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/warrior_icon.jpg</image:loc>
+        <image:title>Warrior icon</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/shadowlands_overview.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_overview_images/startup-img.png</image:loc>
+        <image:title>Shadowlands New Character Starting Area</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_overview_images/zones-img.png</image:loc>
+        <image:title>Shadowlands New Character Starting Area</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/shadowlands_overview_images/coven-img.png</image:loc>
+        <image:title>Shadowlands New Character Starting Area</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>http://www.doodles-whisperwind-v2.elementfx.com/html/character_builds.html</loc>
+    <lastmod>2020-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/guild_landing_page_images/black_dragon_head.png</image:loc>
+        <image:title>black dragons head</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/death-knight-icon.svg</image:loc>
+        <image:title>Death Knight Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/demon-hunter-icon.svg</image:loc>
+        <image:title>Demon Hunter Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/druid-icon.svg</image:loc>
+        <image:title>Druid Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/hunter-icon.svg</image:loc>
+        <image:title>Hunter Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/mage-icon.svg</image:loc>
+        <image:title>Mage Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/monk-icon.svg</image:loc>
+        <image:title>Monk Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/paladan-icon.svg</image:loc>
+        <image:title>Paladan Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/priest-icon.svg</image:loc>
+        <image:title>Priest Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/rogue-icon.svg</image:loc>
+        <image:title>Rogue Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/shaman-icon.svg</image:loc>
+        <image:title>Shaman Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/warlock-icon.svg</image:loc>
+        <image:title>Warlock Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/icons/warrior-icon.svg</image:loc>
+        <image:title>Warrior Icon</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/dk_icon.jpg</image:loc>
+        <image:title>Death Knight Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/dh_icon.png</image:loc>
+        <image:title>Demon Hunter Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/druid_icon.jpg</image:loc>
+        <image:title>Druid Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/hunter_icon.jpg</image:loc>
+        <image:title>Hunter Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/mage_icon.jpg</image:loc>
+        <image:title>Mage Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/monk_icon.png</image:loc>
+        <image:title>Monk Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/paladin_icon.jpg</image:loc>
+        <image:title>Paladin Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/priest_icon.jpg</image:loc>
+        <image:title>Priest Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/rogue_icon.jpg</image:loc>
+        <image:title>Rogue Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/shaman_icon.jpg</image:loc>
+        <image:title>Shaman Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/warlock_icon.jpg</image:loc>
+        <image:title>Warlock Class Image</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>http://www.doodles-whisperwind-v2.elementfx.com/images/character_builds_images/char_images/warrior_icon.jpg</image:loc>
+        <image:title>Warrior Class Image</image:title>
+      </image:image>
+  </url>
+</urlset>

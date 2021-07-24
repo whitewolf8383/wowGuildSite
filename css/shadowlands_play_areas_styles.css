@@ -1,0 +1,257 @@
+/* styles for overview page */
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(256, 256, 256);
+}
+.top-div{
+    background-image: url(../images/shadowlands_play_areas_images/zones-bk.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 615px;
+    color: rgb(256, 256, 256);
+}
+.intro-div{
+    text-align: center;
+}
+.intro-sec{
+    padding: 65px 0 30px 0;
+}
+.intro-para{
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 170%;
+    margin: auto;
+    text-align: left;
+    width: 625px;
+}
+.zone_pages{
+    text-align: center;
+}
+.zone_pages_section{
+    margin: auto;
+    width: 1100px;
+}
+.selector{
+    display: inline-block;
+    width: 200px;
+}
+.selector-title{
+    color: rgb(256, 256, 256);
+    font-family: "Roboto";
+    font-size: 24px;
+}
+.sel-img{
+    height: 100px;
+    width: 100px;
+}
+.sel-img:hover{
+    height: 110px;
+    width: 110px;
+}
+.icon{
+    background-color: transparent;
+    border: none;
+    padding-top: 20px;
+}
+.ardenweald{
+    text-align: center;
+}
+.zone-div{
+    margin-bottom: 30px;
+}
+.title{
+    font-family: "Neuton";
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+.zone-title{
+    padding: 30px 0;
+}
+.zones-para{
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: left;
+    width: 550px;
+}
+.zones-img{
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+}
+.creatures{
+    padding-bottom: 100px;;
+}
+.creatures-div{
+    display: inline-block;
+    font-family: "Roboto";
+    vertical-align: top;
+    margin: 0 15px;
+    width: 200px;
+}
+.creature-img{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.creatures-title{
+    font-size: 24px;
+    font-weight: 400;
+}
+.creatures-para{
+    font-size: 20px;
+    text-align: left;
+}
+.zone-map{
+    width: 1000px;
+    margin-bottom: 60px;
+}
+
+#bastion{display: none;}
+#mald{display: none;}
+#reven{display: none;}
+#maw{display: none;}
+
+
+@media screen and (max-width: 1160px){
+    .zone_pages_section{
+        width: 800px;
+    }
+    .selector{
+        width: 130px;
+    }
+    .selector-title{
+        font-size: 20px;
+    }
+    .sel-img{
+        height: 90px;
+        width: 90px;
+    }
+    .sel-img:hover{
+        height: 100px;
+        width: 100px;
+    }
+    .zone-div{
+        margin-bottom: 30px;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .creatures{
+        padding-bottom: 100px;
+    }
+    .creatures-div{
+        width: 130px;
+    }
+    .creature-img{
+        height: 130px;
+        width: 130px;
+        padding-bottom: 10px;
+    }
+    .creatures-title{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .zone-map{
+        width: 750px;
+    }
+}
+  
+@media screen and (max-width: 800px){
+    .intro-para{
+        font-size: 18px;
+        width: 525px;
+    }
+    .zone_pages_section{
+        width: 600px;
+    }
+    .selector{
+        width: 100px;
+    }
+    .selector-title{
+        font-size: 18px;
+    }
+    .sel-img{
+        height: 75px;
+        width: 75px;
+    }
+    .sel-img:hover{
+        height: 85px;
+        width: 85px;
+    }
+    .title{
+        font-size: 45px;
+    }
+    .zones-para{
+        font-size: 18px;
+        line-height: 170%;
+        width: 525px;
+    }
+    .creatures{
+        padding-bottom: 100px;
+    }
+    .creatures-div{
+        margin: 0 15px;
+        width: 200px;
+    }
+    .creature-img{
+        border-radius: 10px;
+        height: 200px;
+        width: 200px;
+    }
+    .creatures-title{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .creatures-para{
+        font-size: 20px;
+    }
+    .zone-map{
+        width: 500px;
+    }
+}
+  
+@media screen and (max-width: 601px){
+    .intro-para{
+        font-size: 18px;
+        width: 450px;
+    }
+    .zone_pages_section{
+        width: 475px;
+    }
+    .title{
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+    .zone-title{
+        padding: 30px 0;
+    }
+    .zones-para{
+        font-size: 18px;
+        width: 450px;
+    }
+    .selector{
+        width: 150px;
+    }
+    .sel-img{
+        height: 100px;
+        width: 100px;
+    }
+    .sel-img:hover{
+        height: 110px;
+        width: 110px;
+    }
+    .creatures-title{
+        font-size: 22px;
+    }
+    .creatures-para{
+        font-size: 18px;
+    }
+    .zone-map{
+        width: 475px;
+    }
+}

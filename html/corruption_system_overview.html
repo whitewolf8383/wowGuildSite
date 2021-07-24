@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175533281-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-175533281-1');
+    </script>
+    <meta name="google-site-verification" content="zdMvvuaxZy1-XIzmChsjcMDyT1sd_tzYa_ZDjeAsVnU" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Keith J Francis">
+    <meta name="description" content="This page within the Doodles-Whisperwind guild website contains a quick overview of the current corruption system in World of Warcraft">
+    <meta name="keywords" content="doodles, whisperwind, teaching guild, world of warcraft, wow">
+    <title>Doodles-Whisperwind Corruption Page</title>
+    <!-- script styles  from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@200;300;400;700;800&family=Playball&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Link section -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/nav_footer_styles.css">
+    <link rel="stylesheet" href="../css/corruption_builds_styles.css">
+  </head>
+  <body>
+    <section>
+      <header>
+      <div class="top-div">
+        <div class="nav-bar">
+          <div class="nav-bar-section">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a href="index.html">
+                <img class="nav-bar-img" src="../images/guild_landing_page_images/black_dragon_head.png" alt="black dragons head">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a href="guild_intro_page.html" class="nav-bar-section-link">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="guild_officers.html" class="nav-bar-section-link">OFFICERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="character_builds.html" class="nav-bar-section-link">CHARACTERS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="corruption_system_overview.html" class="nav-bar-section-link">CORRUPTION SYSTEM</a>
+                  </li>
+                  <!-- drop down menu-->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: white; font-family: Roboto; font-weight: 500; font-size: 18px; letter-spacing: 3px; padding: 0 5px 0 5px;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      SHADOWLANDS
+                    </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="shadowlands_overview.html">OVERVIEW</a>
+                        <a class="dropdown-item" href="shadowlands_play_areas.html">QUESTING AREAS</a>
+                        <a class="dropdown-item" href="covenant_details.html">COVENANTS</a>
+                        <a class="dropdown-item" href="shadowlands_dungeons.html">DUNGEONS</a>
+                      </div>
+                  </li>
+                </ul>
+                  <!-- Search Box-->
+                  <form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+                    <input id="hiddenquery" type="hidden" name="q" />
+                    <input name="qfront" type="text" class="nav-bar-search-box" placeholder=" Search"/> 
+                    <input type="submit" style="display: none"/>
+                    <div style="display: none;">
+                      Google:<input name="se">
+                    </div>
+                  </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="top-div-section">
+          <h1 class="top-title">CORRUPTION SYSTEM</h1>
+          <h2 class="top-para">Corrpution is a new system mechanic designed to replace the old Titanforged 
+            system. Introduced in patch 8.3, corruption effects provide players with special procs that can 
+            either deal direct damage or increase specific stats, at the cost of corruption. Most corruptions 
+            have 3 tiers of effect that increase with the increase of corruption cost. These corrputions can 
+            be found on many armor and weapon items and can now be purchased from the vendor MOTHER located 
+            in the hearts chamber.</h2>
+        </div>
+      </div>
+      </header>
+      <article>
+      <div class="corruption-selection">
+        <div class="corruption-selection-div">
+          <div class="row">
+            <div class="selector">
+              <h2 class="cor-name">Avoidant</h2>
+              <button class="icon" onclick="openSection(event, 'avoidant')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/avoidant.jpg" alt="Avoidant Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Deadly Momentum</h2>
+              <button class="icon" onclick="openSection(event, 'deadly-momentum')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/deadly_momentum.jpg" alt="Deadly Momentum Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Echoing Void</h2>
+              <button class="icon" onclick="openSection(event, 'echoing-void')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/echoing_void.jpg" alt="Echoing Void Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Expedient</h2>
+              <button class="icon" onclick="openSection(event, 'expedient')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/expedient.jpg" alt="Expedient Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Glimpse of Clarity</h2>
+              <button class="icon" onclick="openSection(event, 'glimpse-of-clarity')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/glimpse_of_clarity.jpg" alt="Glimpse of Clarity Icon">
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="selector">
+              <h2 class="cor-name">Gushing Wound</h2>
+              <button class="icon" onclick="openSection(event, 'gushing-wound')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/gushing_wound.jpg" alt="Gushing Wound Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Honed Mind</h2>
+              <button class="icon" onclick="openSection(event, 'honed-mind')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/honed_mind.jpg" alt="Honed Mind Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Ineffable Truth</h2>
+              <button class="icon" onclick="openSection(event, 'ineffable-truth')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/ineffable_truth.jpg" alt="Ineffable Truth Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Infinite Stars</h2>
+              <button class="icon" onclick="openSection(event, 'infinite-stars')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/infinite_stars.jpg" alt="Infinite Stars Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Masterful</h2>
+              <button class="icon" onclick="openSection(event, 'masterful')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/masterful.jpg" alt="Masterful Icon">
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="selector">
+              <h2 class="cor-name">Racing Pulse</h2>
+              <button class="icon" onclick="openSection(event, 'racing-pulse')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/racing_pulse.jpg" alt="Racing Pulse Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Severe</h2>
+              <button class="icon" onclick="openSection(event, 'severe')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/severe.jpg" alt="Severe Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Siphoner</h2>
+              <button class="icon" onclick="openSection(event, 'siphoner')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/siphoner.jpg" alt="Siphoner Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Strikethough</h2>
+              <button class="icon" onclick="openSection(event, 'strikethrough')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/strikethrough.jpg" alt="Strike Through Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Surging Vitality</h2>
+              <button class="icon" onclick="openSection(event, 'surging-vitality')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/surging_vitality.jpg" alt="Surging Vitality Icon">
+              </button>
+            </div>
+          </div>
+          <div class="row row-2">
+            <div class="selector">
+              <h2 class="cor-name">Twilight Devastation</h2>
+              <button class="icon" onclick="openSection(event, 'twilight-devastation')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/twilight_devastation.jpg" alt="Twilight Devastation Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Twisted Appendage</h2>
+              <button class="icon" onclick="openSection(event, 'twisted-appendage')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/twisted_appendage.jpg" alt="Twisted Appendage Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Versatile</h2>
+              <button class="icon" onclick="openSection(event, 'versatile')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/versatile.jpg" alt="Versatile Icon">
+              </button>
+            </div>
+            <div class="selector">
+              <h2 class="cor-name">Void Ritual</h2>
+              <button class="icon" onclick="openSection(event, 'void-ritual')">
+                <img src="../images/corruption_system_overview_images/corrupt_icon/void_ritual.jpg" alt="Void Ritual Icon">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="corruption-slide-div">
+          <div id="avoidant" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">AVOIDANT</h2>
+              <p class="corruption-para">The avoidant corruption will increase the amount of avoidance you 
+                have by an amount of your haste.</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Avoidance by 8% of your haste rating</p>
+                <p class="tier-cost">Corruption Cost: 8</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Avoidance by 12% of your haste rating</p>
+                <p class="tier-cost">Corruption Cost: 12</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Avoidance by 16% of your haste rating</p>
+                <p class="tier-cost">Corruption Cost: 16</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="deadly-momentum" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">DEADLY MOMENTUM</h2>
+              <p class="corruption-para">The deadly momentum corruption has a chance to increase 
+                your critical strike and stack up to 5 times.</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Critical Strike by 31 per stack</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Critical Strike by 41 per stack</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Critical Strike by 72 per stack</p>
+                <p class="tier-cost">Corruption Cost: 35</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="echoing-void" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">ECHOING VOID</h2>
+              <p class="corruption-para">The echoing void corruption builds stacks with damaging abilities 
+                and has a chance to collapse. When collapsing, does AOE damage every 1 second.</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Deals 0.40% of health as shadow damage</p>
+                <p class="tier-cost">Corruption Cost: 25</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Deals 0.60% of health as shadow damage</p>
+                <p class="tier-cost">Corruption Cost: 35</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Deals 1.00% of health as shadow damage</p>
+                <p class="tier-cost">Corruption Cost: 60</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="expedient" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">EXPEDIENT</h2>
+              <p class="corruption-para">The expedient corruption will increase your haste by a 
+                percentage from all sources</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Haste by 6% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 10</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Haste by 9% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Haste by 12% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="glimpse-of-clarity" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">GLIMPSE OF CLARITY</h2>
+              <p class="corruption-para">The glimpse of clarity corruption has a chance to reduce the cooldown
+                of your next spell.
+              </p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Decreases 1 spell cat time by 3 seconds</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: None</p>
+                <p class="tier-cost">Corruption Cost: XX</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: None</p>
+                <p class="tier-cost">Corruption Cost: XX</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="gushing-wound" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">GUSHING WOUND</h2>
+              <p class="corruption-para">The gushing wound corruption has a chance to cause the target to ooze blood</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Does 91% of Attack or Spell power over 7 secs</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: None</p>
+                <p class="tier-cost">Corruption Cost: XX</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: None</p>
+                <p class="tier-cost">Corruption Cost: XX</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="honed-mind" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">HONED MIND</h2>
+              <p class="corruption-para">With the honed mind corruption, spells and abilities have a chance 
+                to increase mastery for 10 secs.
+              </p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Mastery by 392</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Mastery by 523</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Mastery by 915</p>
+                <p class="tier-cost">Corruption Cost: 35</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="ineffable-truth" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">INEFFABLE TRUTH</h2>
+              <p class="corruption-para">The ineffable truth corruption gives a chance to increase 
+                the rate of cooldowns for 10 seconds.</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases cooldown rate by 30%</p>
+                <p class="tier-cost">Corruption Cost: 12</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases cooldown rate by 50%</p>
+                <p class="tier-cost">Corruption Cost: 30</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: None</p>
+                <p class="tier-cost">Corruption Cost: XX</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="infinite-stars" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">INFINITE STARS</h2>
+              <p class="corruption-para">The infinite stars corruption gives a chance to strike 
+                a nearby enemy with an infinte star. Damage is based on gear item level its placed on and 
+                increases in damage by 25%, stacking up 10 times.</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Damage based on item level placed on.</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increased damage over tier 1</p>
+                <p class="tier-cost">Corruption Cost: 50</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increased damage over tier 2</p>
+                <p class="tier-cost">Corruption Cost: 75</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="masterful" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">MASTERFUL</h2>
+              <p class="corruption-para">The masterful corruption increases the amount of mastery gained from all sources</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Mastery by 6% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 10</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Mastery by 6% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Mastery by 6% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="racing-pulse" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">RACING PULSE</h2>
+              <p class="corruption-para">The racing pulse corruption has a chance to increase haste rating</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Haste by 546 for 4 seconds</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Haste by 728 for 4 seconds</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Haste by 1275 for 4 seconds</p>
+                <p class="tier-cost">Corruption Cost: 35</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="severe" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">SEVERE</h2>
+              <p class="corruption-para">The severe corruption increases critical strike from all sources</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Critical Strike by 6% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 10</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Critical Strike by 9% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Critical Strike by 12% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="siphoner" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">SIPHONER</h2>
+              <p class="corruption-para">The siphoner corruption will increase leech rating by a percentage</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Leech by 3%</p>
+                <p class="tier-cost">Corruption Cost: 17</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Leech by 5%</p>
+                <p class="tier-cost">Corruption Cost: 28</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Leech by 8%</p>
+                <p class="tier-cost">Corruption Cost: 45</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="strikethrough" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">STRIKETHROUGH</h2>
+              <p class="corruption-para">The strikethrough corruption increases the damage and healing 
+                done by critical strikes</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Critical Damage and Healing by 2%</p>
+                <p class="tier-cost">Corruption Cost: 10</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Critical Damage and Healing by 3%/p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Critical Damage and Healing by 4%</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="surging-vitality" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">SURGING VITALITY</h2>
+              <p class="corruption-para">The surging vitality corruption has a chance to increase 
+                your versatility for 20 seconds when taking damage</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Versatiltiy by 312</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Versatility by 416</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Versatility by 728</p>
+                <p class="tier-cost">Corruption Cost: 35</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="twilight-devastation" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">TWILIGHT DEVASTATION</h2>
+              <p class="corruption-para">The twilight devastation corruption  has a chance to deal damage to 
+                all enemies in front of you by a percentage of your health</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Deals damage equal to 6% of your health</p>
+                <p class="tier-cost">Corruption Cost: 25</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Deals damage equal to 12% of your health</p>
+                <p class="tier-cost">Corruption Cost: 50</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Deals damage equal to 18% of your health</p>
+                <p class="tier-cost">Corruption Cost: 75</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="twisted-appendage" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">TWISTED APPENDAGE</h2>
+              <p class="corruption-para">The twisted appendage corruption has a chance to spawn a tentacle to 
+                deal damage to your target for 10 seconds. Damage is dependant on item level of gear it's placed on.</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Damage based on item level placed on.</p>
+                <p class="tier-cost">Corruption Cost: 10</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increased damage over tier 1</p>
+                <p class="tier-cost">Corruption Cost: 35</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increased damage over tier 2</p>
+                <p class="tier-cost">Corruption Cost: 66</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="versatile" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">VERSATILE</h2>
+              <p class="corruption-para">The versatile corruption increases the amount of versatility 
+                gained from all sources</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Versatility by 6% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 10</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Versatility by 9% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Versatility by 12% from all sources</p>
+                <p class="tier-cost">Corruption Cost: 20</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div id="void-ritual" class="char-info-section">
+            <div class="dark-div">
+            <div class="corruption-slide-intro">
+              <h2 class="corruption-name">VOID RITUAL</h2>
+              <p class="corruption-para">The void ritual corruption gives your spells and abiliteis to 
+                increase all secondary stats by an amount every second for 20 seconds</p>
+            </div>
+            <div class="corruption-slide-tiers">
+              <div class="tier">
+                <p class="tier-para">Tier 1: Increases Secondary Stats by 12 every second</p>
+                <p class="tier-cost">Corruption Cost: 15</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 2: Increases Secondary Stats by 34 every second</p>
+                <p class="tier-cost">Corruption Cost: 35</p>
+              </div>
+              <div class="tier">
+                <p class="tier-para">Tier 3: Increases Secondary Stats by 64 every second</p>
+                <p class="tier-cost">Corruption Cost: 66</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </article>
+    <footer>
+      <div class="footer-div">
+        <div class="footer-div-section">
+          <h4 class="footer-txt">2020 | FRANCIS WEB DEVELOPMENT US</h4>
+        </div>
+      </div>
+    </footer>
+    </section>
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="../js/selector.js"></script>
+    <!-- search script from javascriptkit-->
+    <script>
+      var domainroot="www.javascriptkit.com"
+      var searchaction=[
+      "http://www.google.com/search"
+      ]
+      var queryfieldname=["q","p","q"]
+      function switchaction(cur, index){
+      cur.form.action=searchaction[index]
+      document.getElementById("hiddenquery").name=queryfieldname[index]
+      }
+      function jksitesearch(curobj){
+      for (i=0; i< document.jksearch.se.length; i++){
+      if (document.jksearch.se[i].checked==true)
+      switchaction(document.jksearch.se[i], i)
+      }
+      document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+      }
+      </script>
+  </body>
+</html>
